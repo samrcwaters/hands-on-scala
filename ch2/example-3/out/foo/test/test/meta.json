@@ -1,0 +1,21 @@
+{
+    "value": [
+        "Tests: 2, Passed: 2, Failed: 0",
+        [
+            {
+                "fullyQualifiedName": "foo.ExampleTests",
+                "selector": "foo.ExampleTests.hello",
+                "duration": 19,
+                "status": "Success"
+            },
+            {
+                "fullyQualifiedName": "foo.ExampleTests",
+                "selector": "foo.ExampleTests.goodbye",
+                "duration": 0,
+                "status": "Success"
+            }
+        ]
+    ],
+    "valueHash": 509047203,
+    "inputsHash": -164450395
+}

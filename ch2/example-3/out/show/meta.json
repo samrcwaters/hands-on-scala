@@ -1,0 +1,13 @@
+{
+    "value": {
+        "value": {
+            
+        },
+        "watched": [
+            "ref:c984eca8:/Users/samwaters/dev/hands-on-scala/ch3/example-3/foo/resources",
+            "ref:516c85e1:/Users/samwaters/dev/hands-on-scala/ch3/example-3/foo/src"
+        ]
+    },
+    "valueHash": -394352348,
+    "inputsHash": 297633445
+}

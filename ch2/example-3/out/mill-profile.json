@@ -1,0 +1,212 @@
+[
+    {
+        "label": "foo.sources",
+        "millis": 12,
+        "cached": false
+    },
+    {
+        "label": "foo.generatedSources",
+        "millis": 4,
+        "cached": true
+    },
+    {
+        "label": "foo.allSources",
+        "millis": 3,
+        "cached": true
+    },
+    {
+        "label": "foo.test.sources",
+        "millis": 13,
+        "cached": false
+    },
+    {
+        "label": "foo.test.generatedSources",
+        "millis": 13,
+        "cached": true
+    },
+    {
+        "label": "foo.test.allSources",
+        "millis": 2,
+        "cached": true
+    },
+    {
+        "label": "mill.contrib.bloop.BloopImpl.moduleSourceMap",
+        "millis": 8,
+        "cached": false
+    },
+    {
+        "label": "foo.unmanagedClasspath",
+        "millis": 2,
+        "cached": true
+    },
+    {
+        "label": "foo.scalaVersion",
+        "millis": 1,
+        "cached": true
+    },
+    {
+        "label": "foo.platformSuffix",
+        "millis": 2,
+        "cached": true
+    },
+    {
+        "label": "foo.compileIvyDeps",
+        "millis": 2,
+        "cached": true
+    },
+    {
+        "label": "foo.ivyDeps",
+        "millis": 2,
+        "cached": true
+    },
+    {
+        "label": "foo.transitiveIvyDeps",
+        "millis": 2,
+        "cached": true
+    },
+    {
+        "label": "foo.scalaOrganization",
+        "millis": 2,
+        "cached": true
+    },
+    {
+        "label": "foo.scalaLibraryIvyDeps",
+        "millis": 32,
+        "cached": true
+    },
+    {
+        "label": "foo.resources",
+        "millis": 6,
+        "cached": false
+    },
+    {
+        "label": "foo.scalacPluginIvyDeps",
+        "millis": 3,
+        "cached": true
+    },
+    {
+        "label": "foo.scalacPluginClasspath",
+        "millis": 1,
+        "cached": true
+    },
+    {
+        "label": "foo.scalacOptions",
+        "millis": 2,
+        "cached": true
+    },
+    {
+        "label": "foo.scalaCompilerClasspath",
+        "millis": 4,
+        "cached": true
+    },
+    {
+        "label": "foo.javacOptions",
+        "millis": 2,
+        "cached": true
+    },
+    {
+        "label": "foo.forkArgs",
+        "millis": 2,
+        "cached": true
+    },
+    {
+        "label": "foo.mainClass",
+        "millis": 3,
+        "cached": true
+    },
+    {
+        "label": "foo.bloop.config",
+        "millis": 20,
+        "cached": true
+    },
+    {
+        "label": "foo.bloop.writeConfig",
+        "millis": 2,
+        "cached": true
+    },
+    {
+        "label": "foo.test.unmanagedClasspath",
+        "millis": 2,
+        "cached": true
+    },
+    {
+        "label": "foo.test.scalaVersion",
+        "millis": 2,
+        "cached": true
+    },
+    {
+        "label": "foo.test.platformSuffix",
+        "millis": 1,
+        "cached": true
+    },
+    {
+        "label": "foo.test.compileIvyDeps",
+        "millis": 1,
+        "cached": true
+    },
+    {
+        "label": "foo.test.ivyDeps",
+        "millis": 5,
+        "cached": true
+    },
+    {
+        "label": "foo.test.transitiveIvyDeps",
+        "millis": 3,
+        "cached": true
+    },
+    {
+        "label": "foo.test.scalaOrganization",
+        "millis": 1,
+        "cached": true
+    },
+    {
+        "label": "foo.test.scalaLibraryIvyDeps",
+        "millis": 3,
+        "cached": true
+    },
+    {
+        "label": "foo.test.resources",
+        "millis": 7,
+        "cached": false
+    },
+    {
+        "label": "foo.test.scalacPluginClasspath",
+        "millis": 2,
+        "cached": true
+    },
+    {
+        "label": "foo.test.scalaCompilerClasspath",
+        "millis": 2,
+        "cached": true
+    },
+    {
+        "label": "foo.test.testFrameworks",
+        "millis": 3,
+        "cached": true
+    },
+    {
+        "label": "foo.test.forkArgs",
+        "millis": 1,
+        "cached": true
+    },
+    {
+        "label": "foo.test.mainClass",
+        "millis": 2,
+        "cached": true
+    },
+    {
+        "label": "foo.test.bloop.config",
+        "millis": 15,
+        "cached": true
+    },
+    {
+        "label": "foo.test.bloop.writeConfig",
+        "millis": 2,
+        "cached": true
+    },
+    {
+        "label": "mill.contrib.bloop.BloopImpl.install",
+        "millis": 8,
+        "cached": false
+    }
+]

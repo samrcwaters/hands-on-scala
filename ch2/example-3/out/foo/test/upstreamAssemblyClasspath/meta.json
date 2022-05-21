@@ -1,0 +1,13 @@
+{
+    "value": [
+        "ref:c984eca8:/Users/samwaters/dev/hands-on-scala/ch3/example-3/foo/resources",
+        "ref:a45f99be:/Users/samwaters/dev/hands-on-scala/ch3/example-3/out/foo/compile/dest/classes",
+        "qref:765fd63a:/Users/samwaters/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.jar",
+        "qref:c4336d02:/Users/samwaters/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/utest_2.13/0.7.4/utest_2.13-0.7.4.jar",
+        "qref:d35c47a5:/Users/samwaters/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar",
+        "qref:de8d870e:/Users/samwaters/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/portable-scala/portable-scala-reflect_2.13/0.1.1/portable-scala-reflect_2.13-0.1.1.jar",
+        "qref:f63310d8:/Users/samwaters/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.2/scala-reflect-2.13.2.jar"
+    ],
+    "valueHash": 1351919917,
+    "inputsHash": 2050026910
+}

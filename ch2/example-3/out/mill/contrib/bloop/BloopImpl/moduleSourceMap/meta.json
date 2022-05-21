@@ -1,0 +1,12 @@
+{
+    "value": {
+        "foo": [
+            "/Users/samwaters/dev/hands-on-scala/ch3/example-3/foo/src"
+        ],
+        "foo.test": [
+            "/Users/samwaters/dev/hands-on-scala/ch3/example-3/foo/test/src"
+        ]
+    },
+    "valueHash": 361074413,
+    "inputsHash": 859928686
+}

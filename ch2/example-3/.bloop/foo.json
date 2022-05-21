@@ -1,0 +1,74 @@
+{
+    "version": "1.1.2",
+    "project": {
+        "name": "foo",
+        "directory": "/Users/samwaters/dev/hands-on-scala/ch3/example-3/foo",
+        "workspaceDir": "/Users/samwaters/dev/hands-on-scala/ch3/example-3",
+        "sources": [
+            "/Users/samwaters/dev/hands-on-scala/ch3/example-3/foo/src"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "/Users/samwaters/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.jar"
+        ],
+        "out": "/Users/samwaters/dev/hands-on-scala/ch3/example-3/.bloop/out/foo",
+        "classesDir": "/Users/samwaters/dev/hands-on-scala/ch3/example-3/.bloop/out/foo/classes",
+        "resources": [
+            "/Users/samwaters/dev/hands-on-scala/ch3/example-3/foo/resources"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.2",
+            "options": [
+                
+            ],
+            "jars": [
+                "/Users/samwaters/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.2/scala-compiler-2.13.2.jar",
+                "/Users/samwaters/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.2/scala-reflect-2.13.2.jar",
+                "/Users/samwaters/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.jar",
+                "/Users/samwaters/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.14.1/jline-3.14.1.jar",
+                "/Users/samwaters/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar"
+            ]
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home",
+                "options": [
+                    "-Duser.dir=/Users/samwaters/dev/hands-on-scala/ch3/example-3"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.2",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/samwaters/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/samwaters/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
