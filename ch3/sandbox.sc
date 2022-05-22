@@ -130,35 +130,35 @@ def flexibleFizzBuzz(callback: String => Unit) = {
 // for (i <- output) println(i)
 
 // Exercise 2: recursive method printMessages.
-// takes an array of Msg class instances each with an optional parent ID
-// print out a threaded fashion (child messages printed indented underneath parents, arbitrarily deep)
+// takes an array of Msg class instances each with an optional parent ID.
+// print out a threaded fashion (child messages printed indented underneath parents, arbitrarily deep).
 // Eg:
 // #0 Hello
 //   #1 World
 class Msg(val id: Int, val parent: Option[Int], val txt: String)
 
-// Unit is kind of like void
-// what's our recursive step?
+// mostly copied from book solution
 def printMessages(msgs: Array[Msg]): Unit = {
-  def helper(index: Int): Unit = {
-    val msg = msgs(index)
-    println(s"#${msg.id} ${msg.txt}")
-    // base case: at the end of array
-    if (index < msgs.size - 1) helper(index + 1)
+  def printFrag(parent: Option[Int], indentLevel: Int): Unit = {
+    // note that for loop needs braces
+    for (msg <- msgs if msg.parent == parent) {
+      println(s"${"  " * indentLevel}#${msg.id} ${msg.txt}")
+      printFrag(Some(msg.id), indentLevel + 1)
+    }
   }
-  helper(0)
+  printFrag(None, 0)
 }
 
-// def printMessagesHelper()
+// printMessages(
+//   Array(
+//     new Msg(0, None, "Hello"),
+//     new Msg(1, Some(0), "World"),
+//     new Msg(2, None, "I am Cow"),
+//     new Msg(3, Some(2), "Hear me moo"),
+//     new Msg(4, Some(2), "Here I stand"),
+//     new Msg(5, Some(2), "I am Cow"),
+//     new Msg(6, Some(5), "Hear me moo, moo")
+//   )
+// )
 
-printMessages(
-  Array(
-    new Msg(0, None, "Hello"),
-    new Msg(1, Some(0), "World"),
-    new Msg(2, None, "I am Cow"),
-    new Msg(3, Some(2), "Hear me moo"),
-    new Msg(4, Some(2), "Here I stand"),
-    new Msg(5, Some(2), "I am Cow"),
-    new Msg(6, Some(5), "Here me moo, moo")
-  )
-)
+// Exercise 3: withFileWriter and withFileReader methods
