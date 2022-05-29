@@ -1,3 +1,6 @@
+import java.nio.file.Paths
+import java.nio.file.Files
+
 // 3.2.3 FizzBuzz
 def fizzBuzz = {
   for (i <- Range.inclusive(1, 100)) {
@@ -161,4 +164,36 @@ def printMessages(msgs: Array[Msg]): Unit = {
 //   )
 // )
 
-// Exercise 3: withFileWriter and withFileReader methods
+// Exercise 3: context managers (withFileWriter and withFileReader methods).
+// Opening and closing of the reader/writer should be automatic such that a caller cannot
+// forget to close the file.
+def withFileWriter(
+    path: String
+)(callback: java.io.BufferedWriter => Unit): Unit = {
+  // open
+  val writer = Files.newBufferedWriter(Paths.get(path))
+  // write
+  callback(writer);
+  // close
+  writer.close();
+}
+
+def withFileReader(
+    path: String
+)(callback: java.io.BufferedReader => String): String = {
+  // open
+  val reader = Files.newBufferedReader(Paths.get(path))
+  // read
+  val result = callback(reader)
+  // close
+  reader.close()
+  return result
+}
+
+withFileWriter("File.txt") { writer =>
+  writer.write("Hello\n"); writer.write("World!")
+}
+val result = withFileReader("File.txt") { reader =>
+  reader.readLine() + "\n" + reader.readLine()
+}
+assert(result == "Hello\nWorld!")

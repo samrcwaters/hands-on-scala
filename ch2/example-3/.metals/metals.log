@@ -288,3 +288,5 @@ Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.4.35/trees_
 2022.05.21 13:04:51 INFO  Attaching to debuggee VM succeeded.[0m
 2022.05.21 13:04:52 INFO  Canceling debug proxy for [foo.ExampleTests()][0m
 2022.05.21 13:04:52 INFO  Closing debug server tcp://0.0.0.0:60424[0m
+2022.05.21 15:26:22 INFO  shutting down Metals[0m
+2022.05.21 15:26:23 INFO  Shut down connection with build server.[0m
