@@ -8064,3 +8064,177 @@ Caused by: java.lang.IllegalArgumentException: 108 is not a valid line number, a
 2022.05.28 20:21:15 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4sandbox.sc
 May 28, 2022 8:21:23 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2022.05.29 06:15:10 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4sandbox.sc
+2022.05.29 06:16:07 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4sandbox.sc
+2022.05.29 06:45:44 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4sandbox.sc
+2022.05.29 06:45:49 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4sandbox.sc
+2022.05.29 06:46:44 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4sandbox.sc
+2022.05.29 06:47:14 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4sandbox.sc
+2022.05.29 06:48:51 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4sandbox.sc
+May 29, 2022 6:48:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8520
+2022.05.29 06:48:58 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4sandbox.sc
+2022.05.29 06:49:11 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4sandbox.sc
+2022.05.29 07:01:45 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4sandbox.sc
+2022.05.29 07:02:25 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4sandbox.sc
+2022.05.29 07:05:24 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4sandbox.sc
+2022.05.29 07:06:07 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4sandbox.sc
+2022.05.29 07:06:34 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4sandbox.sc
+2022.05.29 07:06:57 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4sandbox.sc
+2022.05.29 07:07:08 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4sandbox.sc
+2022.05.29 07:23:14 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4sandbox.sc
+2022.05.29 07:23:23 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4sandbox.sc
+2022.05.29 07:23:27 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4sandbox.sc
+2022.05.29 07:23:43 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4sandbox.sc
+2022.05.29 07:24:01 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4sandbox.sc
+2022.05.29 07:26:25 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4sandbox.sc
+2022.05.29 07:28:55 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+java.lang.NullPointerException: Cannot invoke "org.eclipse.lsp4j.MessageActionItem.getTitle()" because "resp" is null
+	at scala.meta.internal.metals.ammonite.Ammonite.$anonfun$maybeImport$3(Ammonite.scala:240)
+	at scala.meta.internal.metals.ammonite.Ammonite.$anonfun$maybeImport$3$adapted(Ammonite.scala:237)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+java.lang.NullPointerException: Cannot invoke "org.eclipse.lsp4j.MessageActionItem.getTitle()" because "resp" is null
+	at scala.meta.internal.metals.ammonite.Ammonite.$anonfun$maybeImport$3(Ammonite.scala:240)
+	at scala.meta.internal.metals.ammonite.Ammonite.$anonfun$maybeImport$3$adapted(Ammonite.scala:237)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+May 29, 2022 7:34:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9539
+2022.05.29 07:34:24 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+May 29, 2022 7:34:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9589
+May 29, 2022 7:36:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 25 is not a valid line number, allowed [0..13]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$Ammonite.lineToOffset(Input.scala:95)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+2022.05.29 07:36:26 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 07:36:32 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 07:37:06 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 07:38:22 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 07:38:28 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 07:38:30 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 07:38:56 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 07:44:01 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 07:44:54 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 07:45:47 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+May 29, 2022 7:46:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10210
+May 29, 2022 7:47:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10410
+2022.05.29 07:47:56 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 07:48:03 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 07:48:09 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 07:54:04 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 07:54:52 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 07:55:26 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 07:56:42 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+May 29, 2022 7:58:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10986
+2022.05.29 07:59:45 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 07:59:51 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:00:13 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+May 29, 2022 8:00:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11198
+2022.05.29 08:05:32 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:06:40 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:06:49 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:07:32 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:07:41 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:07:57 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:08:04 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:10:06 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:13:42 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:14:26 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:14:50 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:15:02 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:15:07 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:15:15 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:15:27 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:15:33 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:18:37 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:18:56 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:19:03 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:19:09 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:25:06 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:25:29 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:27:17 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:27:25 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:28:11 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:30:49 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:31:16 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:31:20 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:33:01 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:33:23 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:33:26 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:34:05 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:34:12 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:34:16 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:34:27 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:34:33 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:35:31 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:36:57 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:38:00 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:38:07 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:38:28 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:38:57 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:39:23 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:39:36 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:39:41 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:39:49 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:41:55 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+May 29, 2022 8:42:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14343
+2022.05.29 08:42:38 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:43:06 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:43:07 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:44:46 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:44:58 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:45:04 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:45:07 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:45:25 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:46:11 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:46:23 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:46:26 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:47:04 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc
+2022.05.29 08:47:08 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch4/ch4exercises.sc

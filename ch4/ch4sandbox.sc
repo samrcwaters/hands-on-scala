@@ -109,3 +109,34 @@ assert(
     )
   ) == true
 )
+
+// CONVERTERS let you convert one collection type to another
+// Array to Vector
+val vec = Array(1, 2, 3).to(Vector)
+val set = Array(1, 2, 3, 4).to(Set)
+
+// VIEWS let you apply operations to a collection without traversing multiple times.
+// Need to use `to` to convert back to a collection
+val newArr =
+  Array(1, 2, 3, 4, 5).view.map(_ + 1).filter(_ % 2 == 0).slice(0, 2).to(Array)
+assert(newArr.sameElements(Array(2, 4)))
+
+// VECTORS are fixed-size immutable linear sequences.
+// Good general purpose sequence data structure which provides O(logn) perf for most operations
+val v = Vector(1, 2, 3, 4)
+assert(v(0) == 1)
+val v2 = v.updated(2, 10)
+assert(v2(2) == 10)
+assert(v(2) == 3)
+
+val v3 = Vector[Int]()
+val v4 = v :+ 1 // new vector with 1 appended
+val v5 = 4 +: v4 // new vector with 4 prepended
+val v6 = v5.tail
+assert(v6(0) == 1)
+
+// LISTS are an immutable singly-linked list data structure which terminate in a Nil node
+val myList = List(1, 2, 3, 4)
+assert(myList.head == 1)
+assert(myList.tail.head == 2)
+assert(myList(0) == 1) // slower than other DS index lookups
