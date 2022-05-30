@@ -57,15 +57,32 @@ def renderSudoku(grid: Array[Array[Int]]): String = {
   def reduceRow(row: Array[Int]): String = {
     "| " + row
       .grouped(3)
-      .foldLeft("")((accumulator: String, blockOfThree: Array[Int]) =>
-        accumulator + blockOfThree.mkString("", " ", " | ")
+      .foldLeft("")((accumulator: String, cellTrio: Array[Int]) =>
+        accumulator + cellTrio
+          .map(i => if (i == 0) " " else i.toString)
+          .mkString("", " ", " | ")
       ) + "\n"
   }
   return s"""${hBar}\n${grid
       .grouped(3)
-      .foldLeft("")((accumulator: String, blockOfThreeRows: Array[Array[Int]]) =>
-        accumulator + s"${blockOfThreeRows.map(reduceRow).mkString("", "", s"${hBar}\n")}"
+      .foldLeft("")((accumulator: String, rowTrio: Array[Array[Int]]) =>
+        accumulator + s"${rowTrio.map(reduceRow).mkString("", "", s"${hBar}\n")}"
       )}"""
+}
+
+def renderSudokuBookSolution(grid: Array[Array[Int]]) = {
+  val rowSeparator = "\n+-------+-------+-------+\n"
+  grid
+    .map(row =>
+      row
+        .map(i => if (i == 0) " " else i.toString)
+        .grouped(3)
+        .map(_.mkString(" "))
+        .mkString("| ", " | ", " |")
+    )
+    .grouped(3)
+    .map(_.mkString("\n"))
+    .mkString(rowSeparator, rowSeparator, rowSeparator)
 }
 
 print(
