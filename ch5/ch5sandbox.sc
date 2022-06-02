@@ -74,3 +74,48 @@ def splitDate(s: String) = s match {
 }
 assert(splitDate("01-01-2001") == "day: 01, mon: 01, yr: 2001")
 assert(splitDate("hiiiii") == "not a valid date")
+
+// pattern matching in for loop to destructure variables
+val a = Array[(Int, String)]((1, "one"), (2, "two"))
+// for ((i, s) <- a) println(s + i)
+
+// similar destructuring with val statements
+{
+  val p3 = PointCC(123, 456)
+  val PointCC(x, y) = p3
+  assert(x == 123)
+  assert(y == 456)
+}
+
+val s"$first $second" = "Hello World"
+assert(first == "Hello")
+assert(second == "World")
+
+// Pattern matching on sealed traits and case classes.
+// Example is a simple sealted trait that represents arithmetic expressions
+{
+  sealed trait Expr
+  // binary operation could be addition, subtraction, multiplication, etc
+  case class BinOp(left: Expr, op: String, right: Expr) extends Expr
+  case class Literal(value: Int) extends Expr
+  case class Variable(name: String) extends Expr
+
+  def stringify(expr: Expr): String = expr match {
+    case BinOp(left, op, right) =>
+      s"(${stringify(left)} $op ${stringify(right)})"
+    case Literal(value) => value.toString
+    case Variable(name) => name
+  }
+
+  val smallExpr = BinOp(Variable("x"), "+", Literal(1))
+  assert(stringify(smallExpr) == "(x + 1)")
+
+  val largerExpr = BinOp(
+    BinOp(Variable("x"), "+", Literal(1)),
+    "*",
+    BinOp(Variable("y"), "-", Literal(1))
+  )
+  assert(stringify(largerExpr) == "((x + 1) * (y - 1))")
+}
+
+// Evaluating our expressions: TODO
