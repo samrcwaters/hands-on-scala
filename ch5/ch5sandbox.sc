@@ -79,7 +79,7 @@ assert(splitDate("hiiiii") == "not a valid date")
 val a = Array[(Int, String)]((1, "one"), (2, "two"))
 // for ((i, s) <- a) println(s + i)
 
-// similar destructuring with val statements
+// similar unpacking with val statements
 {
   val p3 = PointCC(123, 456)
   val PointCC(x, y) = p3
@@ -107,6 +107,18 @@ assert(second == "World")
     case Variable(name) => name
   }
 
+  def evaluate(expr: Expr, values: Map[String, Int]): Int = expr match {
+    case BinOp(left, "+", right) =>
+      evaluate(left, values) + evaluate(right, values)
+    case BinOp(left, "-", right) =>
+      evaluate(left, values) - evaluate(right, values)
+    case BinOp(left, "*", right) =>
+      evaluate(left, values) * evaluate(right, values)
+    case Literal(value) => value
+    case Variable(name) => values(name)
+  }
+
+  // stringifying
   val smallExpr = BinOp(Variable("x"), "+", Literal(1))
   assert(stringify(smallExpr) == "(x + 1)")
 
@@ -116,6 +128,10 @@ assert(second == "World")
     BinOp(Variable("y"), "-", Literal(1))
   )
   assert(stringify(largerExpr) == "((x + 1) * (y - 1))")
+
+  // evaluating
+  assert(evaluate(smallExpr, Map("x" -> 10)) == 1)
+  assert(evaluate(largerExpr, Map("x" -> 10, y -> 20)) == 209)
 }
 
 // Evaluating our expressions: TODO
