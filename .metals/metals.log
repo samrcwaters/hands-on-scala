@@ -8263,3 +8263,32 @@ WARNING: Unmatched cancel notification for request id 783
 2022.06.17 22:58:59 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch5/ch5sandbox.sc
 Jun 17, 2022 10:59:22 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2022.06.18 06:38:46 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch5/ch5sandbox.sc
+2022.06.18 06:42:24 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch5/ch5sandbox.sc
+2022.06.18 06:43:13 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch5/ch5sandbox.sc
+2022.06.18 06:44:08 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch5/ch5sandbox.sc
+2022.06.18 13:18:47 INFO  shutting down Metals
+2022.06.18 13:18:47 WARN  Error requesting Ammonite import
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2022.06.18 13:22:45 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/samwaters/dev/hands-on-scala/.metals/lsp.trace.json or /Users/samwaters/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.06.18 13:22:48 INFO  logging to file /Users/samwaters/dev/hands-on-scala/.metals/metals.log
+2022.06.18 13:22:48 INFO  Started: Metals version 0.11.6 in workspace '/Users/samwaters/dev/hands-on-scala' for client Visual Studio Code 1.68.0.
+2022.06.18 13:22:50 INFO  time: initialize in 2.18s
+2022.06.18 13:22:51 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.18 13:22:51 WARN  Build server is not auto-connectable.
+2022.06.18 13:22:51 WARN  no build tool detected in workspace '/Users/samwaters/dev/hands-on-scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.06.18 13:22:59 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch5/ch5sandbox.sc
+2022.06.18 13:23:09 INFO  no build target found for /Users/samwaters/dev/hands-on-scala/ch5/ch5sandbox.sc. Using presentation compiler with project's scala-library version: 3.1.2
+Jun 19, 2022 4:58:14 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

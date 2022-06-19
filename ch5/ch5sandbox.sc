@@ -130,8 +130,8 @@ assert(second == "World")
   assert(stringify(largerExpr) == "((x + 1) * (y - 1))")
 
   // evaluating
-  assert(evaluate(smallExpr, Map("x" -> 10)) == 1)
-  assert(evaluate(largerExpr, Map("x" -> 10, y -> 20)) == 209)
+  assert(evaluate(smallExpr, Map("x" -> 10)) == 11)
+  assert(evaluate(largerExpr, Map("x" -> 10, "y" -> 20)) == 209)
 }
 
-// Evaluating our expressions: TODO
+// By-name parameters
