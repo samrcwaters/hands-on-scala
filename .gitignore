@@ -1,3 +1,4 @@
 .metals/
 metals.log
 .vscode
+.ammonite/

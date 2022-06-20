@@ -1,4 +1,42 @@
-import scala.util.Random
+
+package ammonite
+package $file.ch5
+import _root_.ammonite.interp.api.InterpBridge.{
+  value => interp
+}
+import _root_.ammonite.interp.api.InterpBridge.value.{
+  exit,
+  scalaVersion
+}
+import _root_.ammonite.interp.api.IvyConstructor.{
+  ArtifactIdExt,
+  GroupIdExt
+}
+import _root_.ammonite.compiler.CompilerExtensions.{
+  CompilerInterpAPIExtensions,
+  CompilerReplAPIExtensions
+}
+import _root_.ammonite.runtime.tools.{
+  browse,
+  grep,
+  time,
+  tail
+}
+import _root_.ammonite.compiler.tools.{
+  desugar,
+  source
+}
+import _root_.mainargs.{
+  arg,
+  main
+}
+import _root_.ammonite.repl.tools.Util.{
+  PathRead
+}
+
+
+object ch5sandbox{
+/*<script>*/import scala.util.Random
 import scala.concurrent.ExecutionContext
 import scala.collection.StringParsers
 
@@ -13,15 +51,15 @@ case class PointCC(x: Int, y: Int) {
 }
 val p = PointCC(1, 2)
 // fields public by default
-assert(p.x == 1)
-assert(p.z == 3)
-assert(p.toString == "PointCC(1,2)")
+/*<amm>*/val res_5 = /*</amm>*/assert(p.x == 1)
+/*<amm>*/val res_6 = /*</amm>*/assert(p.z == 3)
+/*<amm>*/val res_7 = /*</amm>*/assert(p.toString == "PointCC(1,2)")
 val p2 = p.copy(x = 10)
-assert(p2.x == 10)
+/*<amm>*/val res_9 = /*</amm>*/assert(p2.x == 10)
 
 // SEALED TRAITS only allow a fixed set of classes to inherit from them
 // - "open" = any number of classes can inherit from a trait
-{
+/*<amm>*/val res_10 = /*</amm>*/{
   sealed trait Point
   case class Point2D(x: Double, y: Double) extends Point
   case class Point3D(x: Double, y: Double, z: Double) extends Point
@@ -36,7 +74,7 @@ assert(p2.x == 10)
 
 // json example
 // hasn't changed in 20 years, so it's a pretty good use case for sealed traits :)
-{
+/*<amm>*/val res_11 = /*</amm>*/{
   sealed trait Json
   case class Null() extends Json
   case class Bool(value: Boolean) extends Json
@@ -58,7 +96,7 @@ val y = x match {
 // println(y)
 
 // fizzbuzz using pattern matching
-for (i <- Range.inclusive(1, 100)) {
+/*<amm>*/val res_14 = /*</amm>*/for (i <- Range.inclusive(1, 100)) {
   // match on tuple
   val s = (i % 3, i % 5) match {
     case (0, 0) => "FizzBuzz"
@@ -74,15 +112,15 @@ def splitDate(s: String) = s match {
   case s"$day-$month-$year" => s"day: $day, mon: $month, yr: $year"
   case _                    => "not a valid date"
 }
-assert(splitDate("01-01-2001") == "day: 01, mon: 01, yr: 2001")
-assert(splitDate("hiiiii") == "not a valid date")
+/*<amm>*/val res_16 = /*</amm>*/assert(splitDate("01-01-2001") == "day: 01, mon: 01, yr: 2001")
+/*<amm>*/val res_17 = /*</amm>*/assert(splitDate("hiiiii") == "not a valid date")
 
 // pattern matching in for loop to destructure variables
 val a = Array[(Int, String)]((1, "one"), (2, "two"))
 // for ((i, s) <- a) println(s + i)
 
 // similar unpacking with val statements
-{
+/*<amm>*/val res_19 = /*</amm>*/{
   val p3 = PointCC(123, 456)
   val PointCC(x, y) = p3
   assert(x == 123)
@@ -90,12 +128,12 @@ val a = Array[(Int, String)]((1, "one"), (2, "two"))
 }
 
 val s"$first $second" = "Hello World"
-assert(first == "Hello")
-assert(second == "World")
+/*<amm>*/val res_21 = /*</amm>*/assert(first == "Hello")
+/*<amm>*/val res_22 = /*</amm>*/assert(second == "World")
 
 // Pattern matching on sealed traits and case classes.
 // Example is a simple sealted trait that represents arithmetic expressions
-{
+/*<amm>*/val res_23 = /*</amm>*/{
   sealed trait Expr
   // binary operation could be addition, subtraction, multiplication, etc
   case class BinOp(left: Expr, op: String, right: Expr) extends Expr
@@ -165,7 +203,7 @@ def retry[T](max: Int)(f: => T): T = {
 }
 
 val httpbin = "https://httpbin.org"
-retry(max = 5) {
+/*<amm>*/val res_26 = /*</amm>*/retry(max = 5) {
   // only succeeds w/ 200 response code 1/3 of the time
   requests.get(s"$httpbin/status/200,400,500")
 }
@@ -237,3 +275,8 @@ val parsedSeq = parseFromString[Seq[Boolean]](
 
 // Can similarly parse tuples of type `key=value` by using one parser for the key and another for the value
 // Can then use ParseSeq and ParseTuple to parse sequences of tuples or tuples of sequences
+/*</script>*/ /*<generated>*/
+def $main() = { scala.Iterator[String]() }
+  override def toString = "ch5sandbox"
+  /*</generated>*/
+}
