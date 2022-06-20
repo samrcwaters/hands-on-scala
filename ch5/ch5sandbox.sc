@@ -1,4 +1,5 @@
 import scala.util.Random
+import scala.concurrent.ExecutionContext
 
 // CASE CLASSES are kinda like C structs or Python data classes.
 // - meant to just hold immutable data
@@ -167,3 +168,15 @@ retry(max = 5) {
   // only succeeds w/ 200 response code 1/3 of the time
   requests.get(s"$httpbin/status/200,400,500")
 }
+
+// Implicit Parameters
+class Foo(val value: Int)
+def bar(implicit foo: Foo) = foo.value + 10
+implicit val foo: Foo = new Foo(1)
+// Implicit parameters are useful for times when you pass the same
+// argument around a bunch of times (eg: execution context).
+// This is better than globals for obvious reasons and better
+// than thread local variables because you get compile-time error-checking
+
+// 5.5: Typeclasses
+// eg: parsing command line arguments
