@@ -134,4 +134,36 @@ assert(second == "World")
   assert(evaluate(largerExpr, Map("x" -> 10, "y" -> 20)) == 209)
 }
 
-// By-name parameters
+// By-name parameters are useful for
+// 1. Avoiding evaluation when not necessary
+// 2. wrapping evaluation to run setup & teardown code before and after evaluation
+// 3. repeating evaluation of the argument more than once
+
+// Repeated Evaluation
+// This function takes a by-name parameter f which produces a value of type T.
+// Can wrap functions of any type in this.
+def retry[T](max: Int)(f: => T): T = {
+  var tries = 0
+  var result: Option[T] = None
+  while (result == None) {
+    try {
+      result = Some(f)
+    } catch {
+      // only run this partial function if the error we're catching is a Throwable!
+      // note that you should never use curly braces in a case statment
+      case e: Throwable =>
+        tries += 1
+        if (tries > max) throw e
+        else {
+          println(s"failed, retry #$tries")
+        }
+    }
+  }
+  result.get
+}
+
+val httpbin = "https://httpbin.org"
+retry(max = 5) {
+  // only succeeds w/ 200 response code 1/3 of the time
+  requests.get(s"$httpbin/status/200,400,500")
+}
