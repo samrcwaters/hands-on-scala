@@ -39,14 +39,18 @@
     case BinOp(Literal(left), "+", Literal(right)) => Literal(left + right)
     case BinOp(Literal(left), "-", Literal(right)) => Literal(left - right)
     case BinOp(Literal(left), "*", Literal(right)) => Literal(left * right)
+    case Variable(v)                               => Variable(v)
+    case BinOp(Literal(1), "*", right)             => simplify(right)
     case BinOp(left, op, Variable(right)) =>
-      BinOp(simplify(left), op, Variable(right))
+      simplify(BinOp(simplify(left), op, Variable(right)))
   }
 
   // Our test cases
-  // #1: evaluating an expression without variables
-  assert(stringify(simplify(BinOp(Literal(1), "+", Literal(1)))) == "2")
-  // #2: evaluation + a variable
+  // #1: (1 + 1) == 2
+  val simp1 = stringify(simplify(BinOp(Literal(1), "+", Literal(1))))
+  assert(simp1 == "2")
+  println(simp1)
+  // #2: ((1 + 1) * x) == (2 * x)
   val simp2 = stringify(
     simplify(BinOp(BinOp(Literal(1), "+", Literal(1)), "*", Variable("x")))
   )
@@ -54,4 +58,20 @@
   assert(
     simp2 == "(2 * x)"
   )
+  // #3: (1 * x) == x
+  val simp3 = stringify(
+    simplify(
+      BinOp(Literal(1), "*", Variable("x"))
+    )
+  )
+  println(simp3)
+  assert(simp3 == "x")
+  // #4: ((2 - 1) * x)
+  val simp4 = stringify(
+    simplify(
+      BinOp(BinOp(Literal(2), "-", Literal(1)), "*", Variable("x"))
+    )
+  )
+  println(simp4)
+  assert(simp4 == "x")
 }
