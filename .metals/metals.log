@@ -9424,3 +9424,624 @@ WARNING: Unmatched cancel notification for request id 1641
 2022.06.19 18:45:03 WARN  no build target for: /home/samwaters/dev/hands-on-scala/ch5/ch5sandbox.sc[0m
 2022.06.19 18:48:52 WARN  no build target for: /home/samwaters/dev/hands-on-scala/ch5/ch5sandbox.sc[0m
 2022.06.19 18:51:09 WARN  no build target for: /home/samwaters/dev/hands-on-scala/ch5/ch5sandbox.sc[0m
+2022.06.20 15:48:20 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/samwaters/dev/hands-on-scala/.metals/lsp.trace.json or /home/samwaters/.cache/metals/lsp.trace.json[0m
+2022.06.20 15:48:20 INFO  logging to file /home/samwaters/dev/hands-on-scala/.metals/metals.log[0m
+2022.06.20 15:48:20 INFO  Started: Metals version 0.11.6 in workspace '/home/samwaters/dev/hands-on-scala' for client Visual Studio Code 1.68.1.[0m
+2022.06.20 15:48:22 INFO  time: initialize in 1.2s[0m
+2022.06.20 15:48:22 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.06.20 15:48:22 WARN  Build server is not auto-connectable.[0m
+2022.06.20 15:48:22 WARN  no build tool detected in workspace '/home/samwaters/dev/hands-on-scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+2022.06.20 15:48:26 WARN  no build target for: /home/samwaters/dev/hands-on-scala/ch5/exercises/1_simplify_exprs.sc[0m
+java.lang.NullPointerException
+	at scala.meta.internal.metals.ammonite.Ammonite.$anonfun$maybeImport$3(Ammonite.scala:240)
+	at scala.meta.internal.metals.ammonite.Ammonite.$anonfun$maybeImport$3$adapted(Ammonite.scala:237)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022.06.20 15:48:29 INFO  no build target found for /home/samwaters/dev/hands-on-scala/ch5/exercises/1_simplify_exprs.sc. Using presentation compiler with project's scala-library version: 3.1.2[0m
+2022.06.20 15:48:32 INFO  time: code lens generation in 4.37s[0m
+Jun 20, 2022 3:50:05 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 20, 2022 3:50:39 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 20, 2022 3:57:08 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 20, 2022 3:57:11 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.06.20 15:58:35 WARN  no build target for: /home/samwaters/dev/hands-on-scala/ch5/ch5sandbox.sc[0m
+java.lang.NullPointerException
+	at scala.meta.internal.metals.ammonite.Ammonite.$anonfun$maybeImport$3(Ammonite.scala:240)
+	at scala.meta.internal.metals.ammonite.Ammonite.$anonfun$maybeImport$3$adapted(Ammonite.scala:237)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022.06.20 15:58:51 WARN  no build target for: /home/samwaters/dev/hands-on-scala/ch5/exercises/1_simplify_exprs.sc[0m
+Jun 20, 2022 3:59:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 102
+2022.06.20 15:59:54 WARN  no build target for: /home/samwaters/dev/hands-on-scala/ch5/exercises/1_simplify_exprs.sc[0m
+2022.06.20 16:00:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/samwaters/dev/hands-on-scala/.metals/bsp.trace.json or /home/samwaters/.cache/metals/bsp.trace.json[0m
+2022.06.20 16:00:03 INFO  Ammonite: Starting BSP server
+[0m
+2022.06.20 16:00:03 INFO  Connected to Ammonite Build server v2.5.3[0m
+2022.06.20 16:00:06 INFO  no build target found for /home/samwaters/dev/hands-on-scala/ch5/exercises/1_simplify_exprs.sc. Using presentation compiler with project's scala-library version: 3.1.2[0m
+2022.06.20 16:00:07 WARN  no build target for: /home/samwaters/dev/hands-on-scala/ch5/exercises/1_simplify_exprs.sc[0m
+2022.06.20 16:00:11 INFO  Ammonite: Jun 20, 2022 4:00:11 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint request
+WARNING: Unsupported request method: buildTarget/javacOptions
+[0m
+2022.06.20 16:00:11 INFO  Java targets not supported by server[0m
+2022.06.20 16:00:13 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2022.06.20 16:00:13 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2022.06.20 16:00:13 INFO  time: indexed workspace in 2.74s[0m
+2022.06.20 16:00:15 INFO  compiling ch5/ch5sandbox.sc[0m
+2022.06.20 16:00:18 INFO  time: compiled ch5sandbox.sc in 3.23s[0m
+2022.06.20 16:00:18 INFO  compiling ch5/exercises/1_simplify_exprs.sc[0m
+2022.06.20 16:00:22 INFO  time: compiled 1_simplify_exprs.sc in 4.12s[0m
+2022.06.20 16:00:25 WARN  no build tool detected in workspace '/home/samwaters/dev/hands-on-scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+2022.06.20 16:00:28 WARN  no build tool detected in workspace '/home/samwaters/dev/hands-on-scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+Jun 20, 2022 4:00:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 217
+2022.06.20 16:01:07 INFO  compiling ch5/exercises/1_simplify_exprs.sc[0m
+2022.06.20 16:01:07 INFO  time: compiled 1_simplify_exprs.sc in 0.91s[0m
+2022.06.20 16:02:08 INFO  compiling ch5/exercises/1_simplify_exprs.sc[0m
+2022.06.20 16:02:11 INFO  time: compiled 1_simplify_exprs.sc in 2.83s[0m
+2022.06.20 16:02:21 INFO  compiling ch5/exercises/1_simplify_exprs.sc[0m
+2022.06.20 16:02:23 INFO  time: compiled 1_simplify_exprs.sc in 2.38s[0m
+Jun 20, 2022 4:04:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 551
+Jun 20, 2022 4:04:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 623
+Jun 20, 2022 4:05:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 870
+2022.06.20 16:06:40 ERROR scalafmt: <input>:104: error: [dialect scala213] ) expected but } found
+}
+^[0m
+2022.06.20 16:06:41 INFO  compiling ch5/exercises/1_simplify_exprs.sc[0m
+2022.06.20 16:06:41 INFO  Ammonite: Error: /home/samwaters/dev/hands-on-scala/.ammonite/scala-2.13.7/amm-2.5.3/ch5/exercises/1_simplify_exprs/target/META-INF/semanticdb/ammonite/$file/ch5/exercises/1_simplify_exprs_0.scala.semanticdb not found (for /home/samwaters/dev/hands-on-scala/.ammonite/scala-2.13.7/amm-2.5.3/ch5/exercises/1_simplify_exprs/target/META-INF/semanticdb/ch5/exercises/1_simplify_exprs.sc.semanticdb)[0m
+2022.06.20 16:06:41 INFO  Ammonite: 
+[0m
+2022.06.20 16:06:41 INFO  time: compiled 1_simplify_exprs.sc in 63ms[0m
+Jun 20, 2022 4:07:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.NoSuchFileException: /home/samwaters/dev/hands-on-scala/.ammonite/scala-2.13.7/amm-2.5.3/ch5/exercises/1_simplify_exprs/src/ammonite/$file/ch5/exercises/1_simplify_exprs.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3206)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:527)
+	at scala.meta.internal.metals.ammonite.Ammonite$AmmoniteMappedSource.update(Ammonite.scala:419)
+	at scala.meta.internal.metals.SourceMapper.$anonfun$pcMapping$1(SourceMapper.scala:28)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.SourceMapper.default$1(SourceMapper.scala:28)
+	at scala.meta.internal.metals.SourceMapper.$anonfun$pcMapping$5(SourceMapper.scala:47)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.SourceMapper.pcMapping(SourceMapper.scala:47)
+	at scala.meta.internal.metals.Compilers.sourceAdjustments(Compilers.scala:649)
+	at scala.meta.internal.metals.Compilers.sourceAdjustments(Compilers.scala:625)
+	at scala.meta.internal.metals.Compilers.$anonfun$withPCAndAdjustLsp$3(Compilers.scala:584)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.Compilers.withPCAndAdjustLsp(Compilers.scala:580)
+	at scala.meta.internal.metals.Compilers.signatureHelp(Compilers.scala:420)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$signatureHelp$1(MetalsLanguageServer.scala:1641)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.signatureHelp(MetalsLanguageServer.scala:1640)
+	... 15 more
+
+Jun 20, 2022 4:07:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.NoSuchFileException: /home/samwaters/dev/hands-on-scala/.ammonite/scala-2.13.7/amm-2.5.3/ch5/exercises/1_simplify_exprs/src/ammonite/$file/ch5/exercises/1_simplify_exprs.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3206)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:527)
+	at scala.meta.internal.metals.ammonite.Ammonite$AmmoniteMappedSource.update(Ammonite.scala:419)
+	at scala.meta.internal.metals.SourceMapper.$anonfun$pcMapping$1(SourceMapper.scala:28)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.SourceMapper.default$1(SourceMapper.scala:28)
+	at scala.meta.internal.metals.SourceMapper.$anonfun$pcMapping$5(SourceMapper.scala:47)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.SourceMapper.pcMapping(SourceMapper.scala:47)
+	at scala.meta.internal.metals.Compilers.sourceAdjustments(Compilers.scala:649)
+	at scala.meta.internal.metals.Compilers.sourceAdjustments(Compilers.scala:625)
+	at scala.meta.internal.metals.Compilers.$anonfun$withPCAndAdjustLsp$3(Compilers.scala:584)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.Compilers.withPCAndAdjustLsp(Compilers.scala:580)
+	at scala.meta.internal.metals.Compilers.completions(Compilers.scala:322)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$completion$1(MetalsLanguageServer.scala:1622)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.completion(MetalsLanguageServer.scala:1622)
+	... 15 more
+
+Jun 20, 2022 4:07:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.NoSuchFileException: /home/samwaters/dev/hands-on-scala/.ammonite/scala-2.13.7/amm-2.5.3/ch5/exercises/1_simplify_exprs/src/ammonite/$file/ch5/exercises/1_simplify_exprs.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3206)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:527)
+	at scala.meta.internal.metals.ammonite.Ammonite$AmmoniteMappedSource.update(Ammonite.scala:419)
+	at scala.meta.internal.metals.SourceMapper.$anonfun$pcMapping$1(SourceMapper.scala:28)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.SourceMapper.default$1(SourceMapper.scala:28)
+	at scala.meta.internal.metals.SourceMapper.$anonfun$pcMapping$5(SourceMapper.scala:47)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.SourceMapper.pcMapping(SourceMapper.scala:47)
+	at scala.meta.internal.metals.Compilers.sourceAdjustments(Compilers.scala:649)
+	at scala.meta.internal.metals.Compilers.sourceAdjustments(Compilers.scala:625)
+	at scala.meta.internal.metals.Compilers.$anonfun$withPCAndAdjustLsp$3(Compilers.scala:584)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.Compilers.withPCAndAdjustLsp(Compilers.scala:580)
+	at scala.meta.internal.metals.Compilers.signatureHelp(Compilers.scala:420)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$signatureHelp$1(MetalsLanguageServer.scala:1641)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.signatureHelp(MetalsLanguageServer.scala:1640)
+	... 15 more
+
+Jun 20, 2022 4:07:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.NoSuchFileException: /home/samwaters/dev/hands-on-scala/.ammonite/scala-2.13.7/amm-2.5.3/ch5/exercises/1_simplify_exprs/src/ammonite/$file/ch5/exercises/1_simplify_exprs.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3206)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:527)
+	at scala.meta.internal.metals.ammonite.Ammonite$AmmoniteMappedSource.update(Ammonite.scala:419)
+	at scala.meta.internal.metals.SourceMapper.$anonfun$pcMapping$1(SourceMapper.scala:28)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.SourceMapper.default$1(SourceMapper.scala:28)
+	at scala.meta.internal.metals.SourceMapper.$anonfun$pcMapping$5(SourceMapper.scala:47)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.SourceMapper.pcMapping(SourceMapper.scala:47)
+	at scala.meta.internal.metals.Compilers.sourceAdjustments(Compilers.scala:649)
+	at scala.meta.internal.metals.Compilers.sourceAdjustments(Compilers.scala:625)
+	at scala.meta.internal.metals.Compilers.$anonfun$withPCAndAdjustLsp$3(Compilers.scala:584)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.Compilers.withPCAndAdjustLsp(Compilers.scala:580)
+	at scala.meta.internal.metals.Compilers.completions(Compilers.scala:322)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$completion$1(MetalsLanguageServer.scala:1622)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.completion(MetalsLanguageServer.scala:1622)
+	... 15 more
+
+Jun 20, 2022 4:07:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.NoSuchFileException: /home/samwaters/dev/hands-on-scala/.ammonite/scala-2.13.7/amm-2.5.3/ch5/exercises/1_simplify_exprs/src/ammonite/$file/ch5/exercises/1_simplify_exprs.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3206)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:527)
+	at scala.meta.internal.metals.ammonite.Ammonite$AmmoniteMappedSource.update(Ammonite.scala:419)
+	at scala.meta.internal.metals.SourceMapper.$anonfun$pcMapping$1(SourceMapper.scala:28)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.SourceMapper.default$1(SourceMapper.scala:28)
+	at scala.meta.internal.metals.SourceMapper.$anonfun$pcMapping$5(SourceMapper.scala:47)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.SourceMapper.pcMapping(SourceMapper.scala:47)
+	at scala.meta.internal.metals.Compilers.sourceAdjustments(Compilers.scala:649)
+	at scala.meta.internal.metals.Compilers.sourceAdjustments(Compilers.scala:625)
+	at scala.meta.internal.metals.Compilers.$anonfun$withPCAndAdjustLsp$3(Compilers.scala:584)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.Compilers.withPCAndAdjustLsp(Compilers.scala:580)
+	at scala.meta.internal.metals.Compilers.signatureHelp(Compilers.scala:420)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$signatureHelp$1(MetalsLanguageServer.scala:1641)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.signatureHelp(MetalsLanguageServer.scala:1640)
+	... 15 more
+
+2022.06.20 16:07:15 INFO  compiling ch5/exercises/1_simplify_exprs.sc[0m
+2022.06.20 16:07:15 INFO  time: compiled 1_simplify_exprs.sc in 0.63s[0m
+2022.06.20 16:08:19 INFO  compiling ch5/exercises/1_simplify_exprs.sc[0m
+2022.06.20 16:08:19 INFO  time: compiled 1_simplify_exprs.sc in 0.59s[0m
+2022.06.20 16:08:26 INFO  file:///home/samwaters/dev/hands-on-scala/ch5/exercises/1_simplify_exprs.sc:102:65: stale scalac error: not found: value y
+        BinOp(BinOp(Literal(1), "+", Literal(1)), "*", Variable(y)),
+                                                                ^[0m
+2022.06.20 16:08:26 INFO  file:///home/samwaters/dev/hands-on-scala/ch5/exercises/1_simplify_exprs.sc:102:65: stale scalac error: not found: value y
+        BinOp(BinOp(Literal(1), "+", Literal(1)), "*", Variable(y)),
+                                                                ^[0m
+2022.06.20 16:08:29 INFO  compiling ch5/exercises/1_simplify_exprs.sc[0m
+2022.06.20 16:08:31 INFO  time: compiled 1_simplify_exprs.sc in 2.05s[0m
+Jun 20, 2022 4:09:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1277
+Jun 20, 2022 4:09:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1281
+2022.06.20 16:09:21 INFO  file:///home/samwaters/dev/hands-on-scala/ch5/exercises/1_simplify_exprs.sc:27:61: stale scalac warning: match may not be exhaustive.
+It would fail on the following input: BinOp(_, (x: String forSome x not in ("*", "+", "-")), _)
+  def evaluate(expr: Expr, values: Map[String, Int]): Int = expr match {
+                                                            ^^^^[0m
+2022.06.20 16:09:21 INFO  file:///home/samwaters/dev/hands-on-scala/ch5/exercises/1_simplify_exprs.sc:38:36: stale scalac warning: match may not be exhaustive.
+It would fail on the following inputs: BinOp(Literal((x: Int forSome x not in 1)), "*", BinOp(_, _, _)), BinOp(Literal((x: Int forSome x not in 1)), (x: String forSome x not in ("*", "+", "-")), Literal((x: Int forSome x not in 1))), BinOp(Literal((x: Int forSome x not in 1)), (x: String forSome x not in ("*", "+", "-")), Literal(1)), BinOp(Literal((x: Int forSome x not in 1)), String(), BinOp(_, _, _)), BinOp(Literal(1), "+", BinOp(_, _, _)), BinOp(Literal(1), (x: String forSome x not in ("*", "+", "-")), Literal((x: Int forSome x not in 1))), BinOp(Literal(1), (x: String forSome x not in ("*", "+", "-")), Literal(1)), BinOp(Literal(1), String(), BinOp(_, _, _))
+  def simplify(expr: Expr): Expr = expr match {
+                                   ^^^^[0m
+2022.06.20 16:09:21 INFO  file:///home/samwaters/dev/hands-on-scala/ch5/exercises/1_simplify_exprs.sc:27:61: stale scalac warning: match may not be exhaustive.
+It would fail on the following input: BinOp(_, (x: String forSome x not in ("*", "+", "-")), _)
+  def evaluate(expr: Expr, values: Map[String, Int]): Int = expr match {
+                                                            ^^^^[0m
+2022.06.20 16:09:21 INFO  file:///home/samwaters/dev/hands-on-scala/ch5/exercises/1_simplify_exprs.sc:38:36: stale scalac warning: match may not be exhaustive.
+It would fail on the following inputs: BinOp(Literal((x: Int forSome x not in 1)), "*", BinOp(_, _, _)), BinOp(Literal((x: Int forSome x not in 1)), (x: String forSome x not in ("*", "+", "-")), Literal((x: Int forSome x not in 1))), BinOp(Literal((x: Int forSome x not in 1)), (x: String forSome x not in ("*", "+", "-")), Literal(1)), BinOp(Literal((x: Int forSome x not in 1)), String(), BinOp(_, _, _)), BinOp(Literal(1), "+", BinOp(_, _, _)), BinOp(Literal(1), (x: String forSome x not in ("*", "+", "-")), Literal((x: Int forSome x not in 1))), BinOp(Literal(1), (x: String forSome x not in ("*", "+", "-")), Literal(1)), BinOp(Literal(1), String(), BinOp(_, _, _))
+  def simplify(expr: Expr): Expr = expr match {
+                                   ^^^^[0m
+2022.06.20 16:09:21 INFO  file:///home/samwaters/dev/hands-on-scala/ch5/exercises/1_simplify_exprs.sc:27:61: stale scalac warning: match may not be exhaustive.
+It would fail on the following input: BinOp(_, (x: String forSome x not in ("*", "+", "-")), _)
+  def evaluate(expr: Expr, values: Map[String, Int]): Int = expr match {
+                                                            ^^^^[0m
+2022.06.20 16:09:21 INFO  file:///home/samwaters/dev/hands-on-scala/ch5/exercises/1_simplify_exprs.sc:38:36: stale scalac warning: match may not be exhaustive.
+It would fail on the following inputs: BinOp(Literal((x: Int forSome x not in 1)), "*", BinOp(_, _, _)), BinOp(Literal((x: Int forSome x not in 1)), (x: String forSome x not in ("*", "+", "-")), Literal((x: Int forSome x not in 1))), BinOp(Literal((x: Int forSome x not in 1)), (x: String forSome x not in ("*", "+", "-")), Literal(1)), BinOp(Literal((x: Int forSome x not in 1)), String(), BinOp(_, _, _)), BinOp(Literal(1), "+", BinOp(_, _, _)), BinOp(Literal(1), (x: String forSome x not in ("*", "+", "-")), Literal((x: Int forSome x not in 1))), BinOp(Literal(1), (x: String forSome x not in ("*", "+", "-")), Literal(1)), BinOp(Literal(1), String(), BinOp(_, _, _))
+  def simplify(expr: Expr): Expr = expr match {
+                                   ^^^^[0m
+2022.06.20 16:09:21 INFO  file:///home/samwaters/dev/hands-on-scala/ch5/exercises/1_simplify_exprs.sc:27:61: stale scalac warning: match may not be exhaustive.
+It would fail on the following input: BinOp(_, (x: String forSome x not in ("*", "+", "-")), _)
+  def evaluate(expr: Expr, values: Map[String, Int]): Int = expr match {
+                                                            ^^^^[0m
+2022.06.20 16:09:21 INFO  file:///home/samwaters/dev/hands-on-scala/ch5/exercises/1_simplify_exprs.sc:38:36: stale scalac warning: match may not be exhaustive.
+It would fail on the following inputs: BinOp(Literal((x: Int forSome x not in 1)), "*", BinOp(_, _, _)), BinOp(Literal((x: Int forSome x not in 1)), (x: String forSome x not in ("*", "+", "-")), Literal((x: Int forSome x not in 1))), BinOp(Literal((x: Int forSome x not in 1)), (x: String forSome x not in ("*", "+", "-")), Literal(1)), BinOp(Literal((x: Int forSome x not in 1)), String(), BinOp(_, _, _)), BinOp(Literal(1), "+", BinOp(_, _, _)), BinOp(Literal(1), (x: String forSome x not in ("*", "+", "-")), Literal((x: Int forSome x not in 1))), BinOp(Literal(1), (x: String forSome x not in ("*", "+", "-")), Literal(1)), BinOp(Literal(1), String(), BinOp(_, _, _))
+  def simplify(expr: Expr): Expr = expr match {
+                                   ^^^^[0m
+2022.06.20 16:09:21 INFO  file:///home/samwaters/dev/hands-on-scala/ch5/exercises/1_simplify_exprs.sc:27:61: stale scalac warning: match may not be exhaustive.
+It would fail on the following input: BinOp(_, (x: String forSome x not in ("*", "+", "-")), _)
+  def evaluate(expr: Expr, values: Map[String, Int]): Int = expr match {
+                                                            ^^^^[0m
+2022.06.20 16:09:21 INFO  file:///home/samwaters/dev/hands-on-scala/ch5/exercises/1_simplify_exprs.sc:38:36: stale scalac warning: match may not be exhaustive.
+It would fail on the following inputs: BinOp(Literal((x: Int forSome x not in 1)), "*", BinOp(_, _, _)), BinOp(Literal((x: Int forSome x not in 1)), (x: String forSome x not in ("*", "+", "-")), Literal((x: Int forSome x not in 1))), BinOp(Literal((x: Int forSome x not in 1)), (x: String forSome x not in ("*", "+", "-")), Literal(1)), BinOp(Literal((x: Int forSome x not in 1)), String(), BinOp(_, _, _)), BinOp(Literal(1), "+", BinOp(_, _, _)), BinOp(Literal(1), (x: String forSome x not in ("*", "+", "-")), Literal((x: Int forSome x not in 1))), BinOp(Literal(1), (x: String forSome x not in ("*", "+", "-")), Literal(1)), BinOp(Literal(1), String(), BinOp(_, _, _))
+  def simplify(expr: Expr): Expr = expr match {
+                                   ^^^^[0m
+2022.06.20 16:09:21 INFO  file:///home/samwaters/dev/hands-on-scala/ch5/exercises/1_simplify_exprs.sc:27:61: stale scalac warning: match may not be exhaustive.
+It would fail on the following input: BinOp(_, (x: String forSome x not in ("*", "+", "-")), _)
+  def evaluate(expr: Expr, values: Map[String, Int]): Int = expr match {
+                                                            ^^^^[0m
+2022.06.20 16:09:21 INFO  file:///home/samwaters/dev/hands-on-scala/ch5/exercises/1_simplify_exprs.sc:38:36: stale scalac warning: match may not be exhaustive.
+It would fail on the following inputs: BinOp(Literal((x: Int forSome x not in 1)), "*", BinOp(_, _, _)), BinOp(Literal((x: Int forSome x not in 1)), (x: String forSome x not in ("*", "+", "-")), Literal((x: Int forSome x not in 1))), BinOp(Literal((x: Int forSome x not in 1)), (x: String forSome x not in ("*", "+", "-")), Literal(1)), BinOp(Literal((x: Int forSome x not in 1)), String(), BinOp(_, _, _)), BinOp(Literal(1), "+", BinOp(_, _, _)), BinOp(Literal(1), (x: String forSome x not in ("*", "+", "-")), Literal((x: Int forSome x not in 1))), BinOp(Literal(1), (x: String forSome x not in ("*", "+", "-")), Literal(1)), BinOp(Literal(1), String(), BinOp(_, _, _))
+  def simplify(expr: Expr): Expr = expr match {
+                                   ^^^^[0m
+2022.06.20 16:09:58 INFO  compiling ch5/exercises/1_simplify_exprs.sc[0m
+2022.06.20 16:09:58 INFO  time: compiled 1_simplify_exprs.sc in 0.52s[0m
+2022.06.20 16:10:09 INFO  compiling ch5/exercises/1_simplify_exprs.sc[0m
+2022.06.20 16:10:09 INFO  time: compiled 1_simplify_exprs.sc in 0.38s[0m
+2022.06.20 16:11:21 ERROR scalafmt: <input>:58: error: [dialect scala213] => expected but ) found
+    case BinOp(left, op, right)) =>
+                               ^[0m
+2022.06.20 16:11:21 INFO  compiling ch5/exercises/1_simplify_exprs.sc[0m
+2022.06.20 16:11:21 INFO  Ammonite: Error: /home/samwaters/dev/hands-on-scala/.ammonite/scala-2.13.7/amm-2.5.3/ch5/exercises/1_simplify_exprs/target/META-INF/semanticdb/ammonite/$file/ch5/exercises/1_simplify_exprs_0.scala.semanticdb not found (for /home/samwaters/dev/hands-on-scala/.ammonite/scala-2.13.7/amm-2.5.3/ch5/exercises/1_simplify_exprs/target/META-INF/semanticdb/ch5/exercises/1_simplify_exprs.sc.semanticdb)
+[0m
+2022.06.20 16:11:21 INFO  time: compiled 1_simplify_exprs.sc in 91ms[0m
+Jun 20, 2022 4:11:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.NoSuchFileException: /home/samwaters/dev/hands-on-scala/.ammonite/scala-2.13.7/amm-2.5.3/ch5/exercises/1_simplify_exprs/src/ammonite/$file/ch5/exercises/1_simplify_exprs.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3206)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:527)
+	at scala.meta.internal.metals.ammonite.Ammonite$AmmoniteMappedSource.update(Ammonite.scala:419)
+	at scala.meta.internal.metals.SourceMapper.$anonfun$pcMapping$1(SourceMapper.scala:28)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.SourceMapper.default$1(SourceMapper.scala:28)
+	at scala.meta.internal.metals.SourceMapper.$anonfun$pcMapping$5(SourceMapper.scala:47)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.SourceMapper.pcMapping(SourceMapper.scala:47)
+	at scala.meta.internal.metals.Compilers.sourceAdjustments(Compilers.scala:649)
+	at scala.meta.internal.metals.Compilers.sourceAdjustments(Compilers.scala:636)
+	at scala.meta.internal.metals.Compilers.$anonfun$withPCAndAdjustLsp$4(Compilers.scala:600)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.Compilers.withPCAndAdjustLsp(Compilers.scala:596)
+	at scala.meta.internal.metals.Compilers.hover(Compilers.scala:378)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$hover$1(MetalsLanguageServer.scala:1457)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.hover(MetalsLanguageServer.scala:1455)
+	... 16 more
+
+2022.06.20 16:11:29 INFO  compiling ch5/exercises/1_simplify_exprs.sc[0m
+2022.06.20 16:11:32 INFO  time: compiled 1_simplify_exprs.sc in 2.17s[0m
+Jun 20, 2022 4:12:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1788
+2022.06.20 16:12:42 INFO  compiling ch5/exercises/1_simplify_exprs.sc[0m
+2022.06.20 16:12:43 INFO  time: compiled 1_simplify_exprs.sc in 1.29s[0m
+Jun 20, 2022 4:16:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2292
+2022.06.20 16:19:08 INFO  compiling ch5/exercises/1_simplify_exprs.sc[0m
+2022.06.20 16:19:08 INFO  time: compiled 1_simplify_exprs.sc in 0.38s[0m
+2022.06.20 16:19:17 INFO  compiling ch5/exercises/1_simplify_exprs.sc[0m
+2022.06.20 16:19:17 INFO  time: compiled 1_simplify_exprs.sc in 0.46s[0m
+2022.06.20 16:20:46 INFO  compiling ch5/exercises/1_simplify_exprs.sc[0m
+2022.06.20 16:20:48 INFO  time: compiled 1_simplify_exprs.sc in 1.99s[0m
+2022.06.20 16:21:51 INFO  compiling ch5/exercises/1_simplify_exprs.sc[0m
+2022.06.20 16:21:53 INFO  time: compiled 1_simplify_exprs.sc in 2.02s[0m
+2022.06.20 16:22:01 INFO  compiling ch5/exercises/1_simplify_exprs.sc[0m
+2022.06.20 16:22:03 INFO  time: compiled 1_simplify_exprs.sc in 1.82s[0m
+2022.06.20 16:22:27 INFO  compiling ch5/exercises/1_simplify_exprs.sc[0m
+2022.06.20 16:22:27 INFO  time: compiled 1_simplify_exprs.sc in 0.43s[0m
+2022.06.20 16:23:29 INFO  compiling ch5/exercises/1_simplify_exprs.sc[0m
+2022.06.20 16:23:30 INFO  time: compiled 1_simplify_exprs.sc in 1.14s[0m
+2022.06.20 16:25:01 INFO  compiling ch5/exercises/1_simplify_exprs.sc[0m
+2022.06.20 16:25:01 WARN  no build tool detected in workspace '/home/samwaters/dev/hands-on-scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+Jun 20, 2022 4:25:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.nio.file.NoSuchFileException: /home/samwaters/dev/hands-on-scala/.ammonite/scala-2.13.7/amm-2.5.3/ch5/exercises/1_simplify_exprs/src/ammonite/$file/ch5/exercises/1_simplify_exprs.scala
+java.util.concurrent.CompletionException: java.nio.file.NoSuchFileException: /home/samwaters/dev/hands-on-scala/.ammonite/scala-2.13.7/amm-2.5.3/ch5/exercises/1_simplify_exprs/src/ammonite/$file/ch5/exercises/1_simplify_exprs.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.nio.file.NoSuchFileException: /home/samwaters/dev/hands-on-scala/.ammonite/scala-2.13.7/amm-2.5.3/ch5/exercises/1_simplify_exprs/src/ammonite/$file/ch5/exercises/1_simplify_exprs.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3206)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:527)
+	at scala.meta.internal.metals.ammonite.Ammonite$AmmoniteMappedSource.update(Ammonite.scala:419)
+	at scala.meta.internal.metals.SourceMapper.$anonfun$pcMapping$1(SourceMapper.scala:28)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.SourceMapper.default$1(SourceMapper.scala:28)
+	at scala.meta.internal.metals.SourceMapper.$anonfun$pcMapping$5(SourceMapper.scala:47)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.SourceMapper.pcMapping(SourceMapper.scala:47)
+	at scala.meta.internal.metals.Compilers.sourceAdjustments(Compilers.scala:649)
+	at scala.meta.internal.metals.Compilers.sourceAdjustments(Compilers.scala:625)
+	at scala.meta.internal.metals.Compilers.$anonfun$withPCAndAdjustLsp$3(Compilers.scala:584)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.Compilers.withPCAndAdjustLsp(Compilers.scala:580)
+	at scala.meta.internal.metals.Compilers.definition(Compilers.scala:389)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$definition$3(DefinitionProvider.scala:92)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 3 more
+
+2022.06.20 16:25:03 INFO  time: compiled 1_simplify_exprs.sc in 1.72s[0m
+2022.06.20 16:26:09 INFO  compiling ch5/exercises/1_simplify_exprs.sc[0m
+2022.06.20 16:26:10 INFO  time: compiled 1_simplify_exprs.sc in 1.43s[0m
+2022.06.20 16:27:39 INFO  compiling ch5/exercises/1_simplify_exprs.sc[0m
+2022.06.20 16:27:39 INFO  time: compiled 1_simplify_exprs.sc in 0.25s[0m
+2022.06.20 16:28:43 INFO  compiling ch5/exercises/1_simplify_exprs.sc[0m
+2022.06.20 16:28:44 INFO  time: compiled 1_simplify_exprs.sc in 1.41s[0m
+2022.06.20 16:29:29 INFO  compiling ch5/exercises/1_simplify_exprs.sc[0m
+2022.06.20 16:29:29 INFO  time: compiled 1_simplify_exprs.sc in 0.31s[0m
+2022.06.20 16:29:42 INFO  file:///home/samwaters/dev/hands-on-scala/ch5/exercises/1_simplify_exprs.sc:112:14: stale scalac error: not enough arguments for method apply: (left: Expr, op: String, right: Expr): BinOp in object BinOp.
+Unspecified value parameters op, right.
+    simplify(BinOp(BinOp(Literal(0), "+", Literal(1))))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.06.20 16:29:42 INFO  file:///home/samwaters/dev/hands-on-scala/ch5/exercises/1_simplify_exprs.sc:112:14: stale scalac error: not enough arguments for method apply: (left: Expr, op: String, right: Expr): BinOp in object BinOp.
+Unspecified value parameters op, right.
+    simplify(BinOp(BinOp(Literal(0), "+", Literal(1))))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.06.20 16:29:42 INFO  file:///home/samwaters/dev/hands-on-scala/ch5/exercises/1_simplify_exprs.sc:112:14: stale scalac error: not enough arguments for method apply: (left: Expr, op: String, right: Expr): BinOp in object BinOp.
+Unspecified value parameters op, right.
+    simplify(BinOp(BinOp(Literal(0), "+", Literal(1))))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.06.20 16:29:42 INFO  file:///home/samwaters/dev/hands-on-scala/ch5/exercises/1_simplify_exprs.sc:112:14: stale scalac error: not enough arguments for method apply: (left: Expr, op: String, right: Expr): BinOp in object BinOp.
+Unspecified value parameters op, right.
+    simplify(BinOp(BinOp(Literal(0), "+", Literal(1))))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.06.20 16:29:42 INFO  file:///home/samwaters/dev/hands-on-scala/ch5/exercises/1_simplify_exprs.sc:112:14: stale scalac error: not enough arguments for method apply: (left: Expr, op: String, right: Expr): BinOp in object BinOp.
+Unspecified value parameters op, right.
+    simplify(BinOp(BinOp(Literal(0), "+", Literal(1))))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.06.20 16:29:42 INFO  file:///home/samwaters/dev/hands-on-scala/ch5/exercises/1_simplify_exprs.sc:112:14: stale scalac error: not enough arguments for method apply: (left: Expr, op: String, right: Expr): BinOp in object BinOp.
+Unspecified value parameters op, right.
+    simplify(BinOp(BinOp(Literal(0), "+", Literal(1))))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.06.20 16:29:46 INFO  file:///home/samwaters/dev/hands-on-scala/ch5/exercises/1_simplify_exprs.sc:112:14: stale scalac error: not enough arguments for method apply: (left: Expr, op: String, right: Expr): BinOp in object BinOp.
+Unspecified value parameters op, right.
+    simplify(BinOp(BinOp(Literal(0), "+", Literal(1))))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.06.20 16:29:46 INFO  file:///home/samwaters/dev/hands-on-scala/ch5/exercises/1_simplify_exprs.sc:112:14: stale scalac error: not enough arguments for method apply: (left: Expr, op: String, right: Expr): BinOp in object BinOp.
+Unspecified value parameters op, right.
+    simplify(BinOp(BinOp(Literal(0), "+", Literal(1))))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.06.20 16:29:46 INFO  file:///home/samwaters/dev/hands-on-scala/ch5/exercises/1_simplify_exprs.sc:112:14: stale scalac error: not enough arguments for method apply: (left: Expr, op: String, right: Expr): BinOp in object BinOp.
+Unspecified value parameters op, right.
+    simplify(BinOp(BinOp(Literal(0), "+", Literal(1))))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.06.20 16:29:47 INFO  file:///home/samwaters/dev/hands-on-scala/ch5/exercises/1_simplify_exprs.sc:112:14: stale scalac error: not enough arguments for method apply: (left: Expr, op: String, right: Expr): BinOp in object BinOp.
+Unspecified value parameters op, right.
+    simplify(BinOp(BinOp(Literal(0), "+", Literal(1))))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.06.20 16:29:47 INFO  file:///home/samwaters/dev/hands-on-scala/ch5/exercises/1_simplify_exprs.sc:112:14: stale scalac error: not enough arguments for method apply: (left: Expr, op: String, right: Expr): BinOp in object BinOp.
+Unspecified value parameters op, right.
+    simplify(BinOp(BinOp(Literal(0), "+", Literal(1))))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.06.20 16:29:47 INFO  file:///home/samwaters/dev/hands-on-scala/ch5/exercises/1_simplify_exprs.sc:112:14: stale scalac error: not enough arguments for method apply: (left: Expr, op: String, right: Expr): BinOp in object BinOp.
+Unspecified value parameters op, right.
+    simplify(BinOp(BinOp(Literal(0), "+", Literal(1))))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.06.20 16:29:47 INFO  file:///home/samwaters/dev/hands-on-scala/ch5/exercises/1_simplify_exprs.sc:112:14: stale scalac error: not enough arguments for method apply: (left: Expr, op: String, right: Expr): BinOp in object BinOp.
+Unspecified value parameters op, right.
+    simplify(BinOp(BinOp(Literal(0), "+", Literal(1))))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.06.20 16:29:48 INFO  file:///home/samwaters/dev/hands-on-scala/ch5/exercises/1_simplify_exprs.sc:112:14: stale scalac error: not enough arguments for method apply: (left: Expr, op: String, right: Expr): BinOp in object BinOp.
+Unspecified value parameters op, right.
+    simplify(BinOp(BinOp(Literal(0), "+", Literal(1))))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.06.20 16:29:56 WARN  no build tool detected in workspace '/home/samwaters/dev/hands-on-scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+2022.06.20 16:30:42 ERROR scalafmt: <input>:125: error: [dialect scala213] ) expected but } found
+}
+^[0m
+2022.06.20 16:30:42 INFO  compiling ch5/exercises/1_simplify_exprs.sc[0m
+2022.06.20 16:30:42 INFO  Ammonite: Error: /home/samwaters/dev/hands-on-scala/.ammonite/scala-2.13.7/amm-2.5.3/ch5/exercises/1_simplify_exprs/target/META-INF/semanticdb/ammonite/$file/ch5/exercises/1_simplify_exprs_0.scala.semanticdb not found (for /home/samwaters/dev/hands-on-scala/.ammonite/scala-2.13.7/amm-2.5.3/ch5/exercises/1_simplify_exprs/target/META-INF/semanticdb/ch5/exercises/1_simplify_exprs.sc.semanticdb)[0m
+2022.06.20 16:30:42 INFO  Ammonite: 
+[0m
+2022.06.20 16:30:42 INFO  time: compiled 1_simplify_exprs.sc in 54ms[0m
+2022.06.20 16:31:01 ERROR scalafmt: <input>:126: error: [dialect scala213] ) expected but } found
+}
+^[0m
+2022.06.20 16:31:01 INFO  compiling ch5/exercises/1_simplify_exprs.sc[0m
+2022.06.20 16:31:01 INFO  Ammonite: Error: /home/samwaters/dev/hands-on-scala/.ammonite/scala-2.13.7/amm-2.5.3/ch5/exercises/1_simplify_exprs/target/META-INF/semanticdb/ammonite/$file/ch5/exercises/1_simplify_exprs_0.scala.semanticdb not found (for /home/samwaters/dev/hands-on-scala/.ammonite/scala-2.13.7/amm-2.5.3/ch5/exercises/1_simplify_exprs/target/META-INF/semanticdb/ch5/exercises/1_simplify_exprs.sc.semanticdb)[0m
+2022.06.20 16:31:01 INFO  Ammonite: 
+[0m
+2022.06.20 16:31:01 INFO  time: compiled 1_simplify_exprs.sc in 0.11s[0m
+2022.06.20 16:31:31 ERROR scalafmt: <input>:127: error: [dialect scala213] ) expected but } found
+}
+^[0m
+2022.06.20 16:31:31 INFO  compiling ch5/exercises/1_simplify_exprs.sc[0m
+2022.06.20 16:31:31 INFO  Ammonite: Error: /home/samwaters/dev/hands-on-scala/.ammonite/scala-2.13.7/amm-2.5.3/ch5/exercises/1_simplify_exprs/target/META-INF/semanticdb/ammonite/$file/ch5/exercises/1_simplify_exprs_0.scala.semanticdb not found (for /home/samwaters/dev/hands-on-scala/.ammonite/scala-2.13.7/amm-2.5.3/ch5/exercises/1_simplify_exprs/target/META-INF/semanticdb/ch5/exercises/1_simplify_exprs.sc.semanticdb)
+[0m
+2022.06.20 16:31:31 INFO  time: compiled 1_simplify_exprs.sc in 65ms[0m
+2022.06.20 16:31:56 INFO  compiling ch5/exercises/1_simplify_exprs.sc[0m
+2022.06.20 16:31:57 INFO  time: compiled 1_simplify_exprs.sc in 1.39s[0m
+2022.06.20 16:32:45 INFO  compiling ch5/exercises/1_simplify_exprs.sc[0m
+2022.06.20 16:32:46 INFO  time: compiled 1_simplify_exprs.sc in 1.33s[0m
+2022.06.20 16:33:10 INFO  compiling ch5/exercises/1_simplify_exprs.sc[0m
+2022.06.20 16:33:11 INFO  time: compiled 1_simplify_exprs.sc in 1.45s[0m
+2022.06.20 16:34:27 INFO  compiling ch5/exercises/1_simplify_exprs.sc[0m
+2022.06.20 16:34:27 INFO  time: compiled 1_simplify_exprs.sc in 0.35s[0m
+2022.06.20 16:34:47 INFO  compiling ch5/exercises/1_simplify_exprs.sc[0m
+2022.06.20 16:34:48 INFO  time: compiled 1_simplify_exprs.sc in 1.35s[0m
+2022.06.20 16:35:15 INFO  compiling ch5/exercises/1_simplify_exprs.sc[0m
+2022.06.20 16:35:16 INFO  time: compiled 1_simplify_exprs.sc in 1.29s[0m
