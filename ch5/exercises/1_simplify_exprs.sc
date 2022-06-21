@@ -35,6 +35,7 @@
     case Variable(name) => values(name)
   }
 
+  // note that this solution lacks something to infinitely simplify a part of an expression as long as it can be simplified, unlike the book's answer.
   def simplify(expr: Expr): Expr = expr match {
     // evaluate expressions with only literals
     case BinOp(Literal(left), "+", Literal(right)) => Literal(left + right)
