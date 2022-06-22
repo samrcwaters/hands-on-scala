@@ -10045,3 +10045,544 @@ Unspecified value parameters op, right.
 2022.06.20 16:34:48 INFO  time: compiled 1_simplify_exprs.sc in 1.35s[0m
 2022.06.20 16:35:15 INFO  compiling ch5/exercises/1_simplify_exprs.sc[0m
 2022.06.20 16:35:16 INFO  time: compiled 1_simplify_exprs.sc in 1.29s[0m
+2022.06.22 00:35:07 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/samwaters/dev/hands-on-scala/.metals/lsp.trace.json or /Users/samwaters/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.06.22 00:35:09 INFO  logging to file /Users/samwaters/dev/hands-on-scala/.metals/metals.log
+2022.06.22 00:35:09 INFO  Started: Metals version 0.11.6 in workspace '/Users/samwaters/dev/hands-on-scala' for client Visual Studio Code 1.68.0.
+2022.06.22 00:35:11 INFO  time: initialize in 1.98s
+2022.06.22 00:35:11 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.22 00:35:12 WARN  Build server is not auto-connectable.
+2022.06.22 00:35:12 WARN  no build tool detected in workspace '/Users/samwaters/dev/hands-on-scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.06.22 00:35:17 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch5/exercises/2_retry_exponential_backoff.sc
+2022.06.22 00:35:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/samwaters/dev/hands-on-scala/.metals/bsp.trace.json or /Users/samwaters/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.22 00:35:23 INFO  Ammonite: Starting BSP server
+
+2022.06.22 00:35:23 INFO  Connected to Ammonite Build server v2.5.3
+2022.06.22 00:35:25 INFO  no build target found for /Users/samwaters/dev/hands-on-scala/ch5/exercises/2_retry_exponential_backoff.sc. Using presentation compiler with project's scala-library version: 3.1.2
+2022.06.22 00:35:31 INFO  no build target found for /Users/samwaters/dev/hands-on-scala/ch5/exercises/2_retry_exponential_backoff.sc. Using presentation compiler with project's scala-library version: 3.1.2
+2022.06.22 00:35:43 INFO  Ammonite: Jun 22, 2022 12:35:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint request
+WARNING: Unsupported request method: buildTarget/javacOptions
+
+2022.06.22 00:35:43 INFO  Java targets not supported by server
+2022.06.22 00:35:50 INFO  time: indexed workspace in 7.13s
+2022.06.22 00:35:51 INFO  compiling ch5/exercises/2_retry_exponential_backoff.sc
+2022.06.22 00:35:56 INFO  time: compiled 2_retry_exponential_backoff.sc in 4.99s
+Jun 22, 2022 12:36:24 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.06.22 00:36:28 INFO  shutting down Metals
+2022.06.22 00:37:20 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/samwaters/dev/hands-on-scala/.metals/lsp.trace.json or /Users/samwaters/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.06.22 00:37:21 INFO  logging to file /Users/samwaters/dev/hands-on-scala/.metals/metals.log
+2022.06.22 00:37:21 INFO  Started: Metals version 0.11.6 in workspace '/Users/samwaters/dev/hands-on-scala' for client Visual Studio Code 1.68.0.
+2022.06.22 00:37:22 INFO  time: initialize in 1.28s
+2022.06.22 00:37:22 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.22 00:37:24 WARN  Build server is not auto-connectable.
+2022.06.22 00:37:24 WARN  no build tool detected in workspace '/Users/samwaters/dev/hands-on-scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.06.22 00:37:29 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch5/exercises/2_retry_exponential_backoff.sc
+2022.06.22 00:37:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/samwaters/dev/hands-on-scala/.metals/bsp.trace.json or /Users/samwaters/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.22 00:37:30 INFO  Ammonite: Starting BSP server
+
+2022.06.22 00:37:31 INFO  Connected to Ammonite Build server v2.5.3
+2022.06.22 00:37:33 INFO  no build target found for /Users/samwaters/dev/hands-on-scala/ch5/exercises/2_retry_exponential_backoff.sc. Using presentation compiler with project's scala-library version: 3.1.2
+2022.06.22 00:37:37 INFO  no build target found for /Users/samwaters/dev/hands-on-scala/ch5/exercises/2_retry_exponential_backoff.sc. Using presentation compiler with project's scala-library version: 3.1.2
+2022.06.22 00:37:41 INFO  time: code lens generation in 12s
+2022.06.22 00:37:45 INFO  Ammonite: Jun 22, 2022 12:37:45 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint request
+WARNING: Unsupported request method: buildTarget/javacOptions
+
+2022.06.22 00:37:45 INFO  Java targets not supported by server
+2022.06.22 00:37:48 INFO  time: indexed workspace in 2.52s
+2022.06.22 00:37:49 INFO  compiling ch5/exercises/2_retry_exponential_backoff.sc
+Jun 22, 2022 12:37:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "build/taskFinish",
+  "params": {
+    "taskId": {
+      "id": "a37daeab-29a8-42d8-8219-c78c2ea4afbb"
+    },
+    "eventTime": 1655883470768,
+    "message": "Error compiling ch5/exercises/2_retry_exponential_backoff.sc",
+    "status": 2,
+    "dataKind": "compile-report",
+    "data": {
+      "target": {
+        "uri": "file:///Users/samwaters/dev/hands-on-scala/ch5/exercises/2_retry_exponential_backoff.sc"
+      },
+      "errors": 1,
+      "warnings": 0
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.NullPointerException: Cannot invoke "scala.meta.pc.PresentationCompiler.restart()" because "x$7" is null
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$1(Compilers.scala:239)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$1$adapted(Compilers.scala:239)
+	at scala.Option.foreach(Option.scala:437)
+	at scala.meta.internal.metals.Compilers.didCompile(Compilers.scala:239)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$updateWorkspaceDirectory$12(MetalsLanguageServer.scala:438)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$updateWorkspaceDirectory$12$adapted(MetalsLanguageServer.scala:436)
+	at scala.meta.internal.metals.clients.language.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$2(ForwardingMetalsBuildClient.scala:160)
+	at scala.Option.foreach(Option.scala:437)
+	at scala.meta.internal.metals.clients.language.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$1(ForwardingMetalsBuildClient.scala:157)
+	at scala.meta.internal.metals.clients.language.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$1$adapted(ForwardingMetalsBuildClient.scala:156)
+	at scala.Option.foreach(Option.scala:437)
+	at scala.meta.internal.metals.clients.language.ForwardingMetalsBuildClient.buildTaskFinish(ForwardingMetalsBuildClient.scala:156)
+	... 16 more
+
+Jun 22, 2022 12:38:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.06.22 00:38:45 INFO  shutting down Metals
+2022.06.22 00:39:14 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/samwaters/dev/hands-on-scala/.metals/lsp.trace.json or /Users/samwaters/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.06.22 00:39:15 INFO  logging to file /Users/samwaters/dev/hands-on-scala/.metals/metals.log
+2022.06.22 00:39:15 INFO  Started: Metals version 0.11.6 in workspace '/Users/samwaters/dev/hands-on-scala' for client Visual Studio Code 1.68.0.
+2022.06.22 00:39:16 INFO  time: initialize in 0.97s
+2022.06.22 00:39:17 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.22 00:39:17 WARN  Build server is not auto-connectable.
+2022.06.22 00:39:17 WARN  no build tool detected in workspace '/Users/samwaters/dev/hands-on-scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.06.22 00:39:23 WARN  no build target for: /Users/samwaters/dev/hands-on-scala/ch5/exercises/2_retry_exponential_backoff.sc
+2022.06.22 00:39:23 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/samwaters/dev/hands-on-scala/.metals/bsp.trace.json or /Users/samwaters/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.22 00:39:24 INFO  Ammonite: Starting BSP server
+
+2022.06.22 00:39:24 INFO  Connected to Ammonite Build server v2.5.3
+2022.06.22 00:39:27 INFO  no build target found for /Users/samwaters/dev/hands-on-scala/ch5/exercises/2_retry_exponential_backoff.sc. Using presentation compiler with project's scala-library version: 3.1.2
+2022.06.22 00:39:30 INFO  no build target found for /Users/samwaters/dev/hands-on-scala/ch5/exercises/2_retry_exponential_backoff.sc. Using presentation compiler with project's scala-library version: 3.1.2
+2022.06.22 00:39:34 INFO  time: code lens generation in 10s
+2022.06.22 00:39:39 INFO  Ammonite: Jun 22, 2022 12:39:39 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint request
+WARNING: Unsupported request method: buildTarget/javacOptions
+
+2022.06.22 00:39:39 INFO  Java targets not supported by server
+2022.06.22 00:39:41 INFO  time: indexed workspace in 2.41s
+2022.06.22 00:39:42 INFO  compiling ch5/exercises/2_retry_exponential_backoff.sc
+Jun 22, 2022 12:39:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "build/taskFinish",
+  "params": {
+    "taskId": {
+      "id": "b687debc-2cba-4454-8991-cd8f9b704030"
+    },
+    "eventTime": 1655883583724,
+    "message": "Error compiling ch5/exercises/2_retry_exponential_backoff.sc",
+    "status": 2,
+    "dataKind": "compile-report",
+    "data": {
+      "target": {
+        "uri": "file:///Users/samwaters/dev/hands-on-scala/ch5/exercises/2_retry_exponential_backoff.sc"
+      },
+      "errors": 1,
+      "warnings": 0
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.NullPointerException: Cannot invoke "scala.meta.pc.PresentationCompiler.restart()" because "x$7" is null
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$1(Compilers.scala:239)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$1$adapted(Compilers.scala:239)
+	at scala.Option.foreach(Option.scala:437)
+	at scala.meta.internal.metals.Compilers.didCompile(Compilers.scala:239)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$updateWorkspaceDirectory$12(MetalsLanguageServer.scala:438)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$updateWorkspaceDirectory$12$adapted(MetalsLanguageServer.scala:436)
+	at scala.meta.internal.metals.clients.language.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$2(ForwardingMetalsBuildClient.scala:160)
+	at scala.Option.foreach(Option.scala:437)
+	at scala.meta.internal.metals.clients.language.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$1(ForwardingMetalsBuildClient.scala:157)
+	at scala.meta.internal.metals.clients.language.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$1$adapted(ForwardingMetalsBuildClient.scala:156)
+	at scala.Option.foreach(Option.scala:437)
+	at scala.meta.internal.metals.clients.language.ForwardingMetalsBuildClient.buildTaskFinish(ForwardingMetalsBuildClient.scala:156)
+	... 16 more
+
+Jun 22, 2022 12:40:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "untitled:/Users/samwaters/dev/hands-on-scala/ch5/exercises/3_nested_parse_from_string.sc"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "untitled" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:115)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:141)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:617)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:614)
+	at scala.meta.internal.metals.MetalsLanguageServer.didFocus(MetalsLanguageServer.scala:1129)
+	... 16 more
+
+2022.06.22 00:41:37 INFO  disconnected: ammonite build server
+2022.06.22 00:41:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/samwaters/dev/hands-on-scala/.metals/bsp.trace.json or /Users/samwaters/Library/Caches/org.scalameta.metals/bsp.trace.json
+Jun 22, 2022 12:41:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+2022.06.22 00:41:39 ERROR timeout: build server 'Ammonite' during shutdown
+2022.06.22 00:41:40 INFO  Ammonite: Starting BSP server
+
+2022.06.22 00:41:41 INFO  Connected to Ammonite Build server v2.5.3
+2022.06.22 00:41:43 INFO  time: code lens generation in 4.46s
+2022.06.22 00:41:52 INFO  Ammonite: Jun 22, 2022 12:41:52 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint request
+WARNING: Unsupported request method: buildTarget/javacOptions
+
+2022.06.22 00:41:52 INFO  Java targets not supported by server
+2022.06.22 00:41:55 INFO  time: indexed workspace in 2.11s
+2022.06.22 00:41:55 INFO  compiling ch5/ch5sandbox.sc
+2022.06.22 00:42:00 INFO  time: compiled ch5sandbox.sc in 4.77s
+2022.06.22 00:48:37 INFO  file:///Users/samwaters/dev/hands-on-scala/ch5/ch5sandbox.sc:170:3: stale scalac error: not found: value requests
+  requests.get(s"$httpbin/status/200,400,500")
+  ^^^^^^^^
+2022.06.22 00:48:37 INFO  file:///Users/samwaters/dev/hands-on-scala/ch5/ch5sandbox.sc:170:3: stale scalac error: not found: value requests
+  requests.get(s"$httpbin/status/200,400,500")
+  ^^^^^^^^
+2022.06.22 00:48:39 INFO  file:///Users/samwaters/dev/hands-on-scala/ch5/ch5sandbox.sc:170:3: stale scalac error: not found: value requests
+  requests.get(s"$httpbin/status/200,400,500")
+  ^^^^^^^^
+2022.06.22 00:48:39 INFO  file:///Users/samwaters/dev/hands-on-scala/ch5/ch5sandbox.sc:170:3: stale scalac error: not found: value requests
+  requests.get(s"$httpbin/status/200,400,500")
+  ^^^^^^^^
+2022.06.22 00:48:41 INFO  file:///Users/samwaters/dev/hands-on-scala/ch5/ch5sandbox.sc:170:3: stale scalac error: not found: value requests
+  requests.get(s"$httpbin/status/200,400,500")
+  ^^^^^^^^
+2022.06.22 00:48:41 INFO  file:///Users/samwaters/dev/hands-on-scala/ch5/ch5sandbox.sc:170:3: stale scalac error: not found: value requests
+  requests.get(s"$httpbin/status/200,400,500")
+  ^^^^^^^^
+2022.06.22 00:48:43 INFO  file:///Users/samwaters/dev/hands-on-scala/ch5/ch5sandbox.sc:170:3: stale scalac error: not found: value requests
+  requests.get(s"$httpbin/status/200,400,500")
+  ^^^^^^^^
+2022.06.22 00:48:43 INFO  file:///Users/samwaters/dev/hands-on-scala/ch5/ch5sandbox.sc:170:3: stale scalac error: not found: value requests
+  requests.get(s"$httpbin/status/200,400,500")
+  ^^^^^^^^
+Jun 22, 2022 12:48:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 292
+Jun 22, 2022 12:48:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 294
+2022.06.22 00:49:15 INFO  compiling ch5/ch5sandbox.sc
+2022.06.22 00:49:17 INFO  time: compiled ch5sandbox.sc in 1.54s
+Jun 22, 2022 12:55:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "untitled:/Users/samwaters/dev/hands-on-scala/ch5/exercises/3_nested_parse_from_string.sc"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "untitled" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:115)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:141)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:617)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:614)
+	at scala.meta.internal.metals.MetalsLanguageServer.didFocus(MetalsLanguageServer.scala:1129)
+	... 16 more
+
+2022.06.22 00:56:45 INFO  disconnected: ammonite build server
+2022.06.22 00:56:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/samwaters/dev/hands-on-scala/.metals/bsp.trace.json or /Users/samwaters/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.22 00:56:47 INFO  Ammonite: Starting BSP server
+
+2022.06.22 00:56:47 ERROR timeout: build server 'Ammonite' during shutdown
+2022.06.22 00:56:47 INFO  Connected to Ammonite Build server v2.5.3
+2022.06.22 00:56:57 INFO  Ammonite: Jun 22, 2022 12:56:57 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint request
+WARNING: Unsupported request method: buildTarget/javacOptions
+
+2022.06.22 00:56:57 INFO  Java targets not supported by server
+2022.06.22 00:56:59 INFO  time: indexed workspace in 1.86s
+2022.06.22 00:57:00 INFO  compiling ch5/ch5sandbox.sc
+2022.06.22 00:57:04 INFO  time: compiled ch5sandbox.sc in 3.59s
+2022.06.22 00:57:04 INFO  compiling ch5/exercises/3_nested_parse_from_string.sc
+2022.06.22 00:57:06 INFO  time: compiled 3_nested_parse_from_string.sc in 2.09s
+Jun 22, 2022 12:57:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 420
+Jun 22, 2022 12:57:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 451
+Jun 22, 2022 12:57:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 462
+Jun 22, 2022 12:57:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 461
+Jun 22, 2022 12:57:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 460
+2022.06.22 00:57:39 INFO  compiling ch5/exercises/3_nested_parse_from_string.sc
+2022.06.22 00:57:40 INFO  time: compiled 3_nested_parse_from_string.sc in 1.39s
+Jun 22, 2022 12:57:47 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jun 22, 2022 12:57:47 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+scala.MatchError: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+	at scala.tools.nsc.typechecker.Unapplies.constrParamss(Unapplies.scala:88)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth(Unapplies.scala:139)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth$(Unapplies.scala:136)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.factoryMeth(MetalsGlobal.scala:61)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper(MethodSynthesis.scala:238)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper$(MethodSynthesis.scala:237)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterImplicitWrapper(Namers.scala:57)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym(Global.scala:95)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym$(Global.scala:81)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$$anon$2.enterExistingSym(Global.scala:51)
+	at scala.tools.nsc.typechecker.Namers$Namer.standardEnterSym(Namers.scala:313)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym(AnalyzerPlugins.scala:495)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym$(AnalyzerPlugins.scala:494)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.pluginsEnterSym(MetalsGlobal.scala:61)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterSym(Namers.scala:287)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSym(Typers.scala:1985)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSyms(Typers.scala:1980)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2040)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedModuleDef(Typers.scala:1940)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5952)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6041)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:6119)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$8(Typers.scala:3410)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3410)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2064)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedModuleDef(Typers.scala:1940)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5952)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6041)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:6119)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$8(Typers.scala:3410)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3410)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5634)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5954)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6041)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:6119)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$8(Typers.scala:3410)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3410)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5634)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5954)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6041)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:117)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:459)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1349)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1342)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:680)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:829)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1212)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:428)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+
+Jun 22, 2022 12:57:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 544
+something's wrong: no file:///Users/samwaters/dev/hands-on-scala/.ammonite/scala-2.13.7/amm-2.5.3/ch5/exercises/3_nested_parse_from_string/src/ammonite/$file/ch5/exercises/3_nested_parse_from_string.amm.sc.scala in ammonite.$file.ch5.exercises.3_nested_parse_from_string.StrParser[<error>]RangePosition(file:///Users/samwaters/dev/hands-on-scala/.ammonite/scala-2.13.7/amm-2.5.3/ch5/exercises/3_nested_parse_from_string/src/ammonite/$file/ch5/exercises/3_nested_parse_from_string.amm.sc.scala, 1053, 1053, 1072)
+Jun 22, 2022 12:58:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 599
+Jun 22, 2022 12:58:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 647
+Jun 22, 2022 12:58:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 649
+2022.06.22 00:58:59 INFO  compiling ch5/exercises/3_nested_parse_from_string.sc
+2022.06.22 00:58:59 INFO  time: compiled 3_nested_parse_from_string.sc in 0.32s
+2022.06.22 00:59:54 INFO  compiling ch5/exercises/3_nested_parse_from_string.sc
+2022.06.22 00:59:54 INFO  time: compiled 3_nested_parse_from_string.sc in 0.95s
+Exception in thread "pool-12-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Jun 22, 2022 1:00:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 875
+2022.06.22 01:00:30 INFO  compiling ch5/exercises/3_nested_parse_from_string.sc
+2022.06.22 01:00:32 INFO  time: compiled 3_nested_parse_from_string.sc in 1.29s
+something's wrong: no file:///Users/samwaters/dev/hands-on-scala/.ammonite/scala-2.13.7/amm-2.5.3/ch5/exercises/3_nested_parse_from_string/src/ammonite/$file/ch5/exercises/3_nested_parse_from_string.amm.sc.scala in ammonite.$file.ch5.exercises.3_nested_parse_from_string.StrParser[<error>]RangePosition(file:///Users/samwaters/dev/hands-on-scala/.ammonite/scala-2.13.7/amm-2.5.3/ch5/exercises/3_nested_parse_from_string/src/ammonite/$file/ch5/exercises/3_nested_parse_from_string.amm.sc.scala, 1367, 1367, 1386)
+2022.06.22 01:01:52 INFO  compiling ch5/exercises/3_nested_parse_from_string.sc
+2022.06.22 01:01:53 INFO  time: compiled 3_nested_parse_from_string.sc in 1.27s
+2022.06.22 01:03:51 INFO  compiling ch5/exercises/3_nested_parse_from_string.sc
+2022.06.22 01:03:52 INFO  time: compiled 3_nested_parse_from_string.sc in 1.34s
+2022.06.22 01:04:53 INFO  compiling ch5/exercises/3_nested_parse_from_string.sc
+2022.06.22 01:04:54 INFO  time: compiled 3_nested_parse_from_string.sc in 1.18s
+2022.06.22 01:06:04 INFO  compiling ch5/exercises/3_nested_parse_from_string.sc
+2022.06.22 01:06:05 INFO  time: compiled 3_nested_parse_from_string.sc in 1s
+Jun 22, 2022 1:12:49 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jun 22, 2022 1:12:49 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+scala.MatchError: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+	at scala.tools.nsc.typechecker.Unapplies.constrParamss(Unapplies.scala:88)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth(Unapplies.scala:139)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth$(Unapplies.scala:136)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.factoryMeth(MetalsGlobal.scala:61)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper(MethodSynthesis.scala:238)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper$(MethodSynthesis.scala:237)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterImplicitWrapper(Namers.scala:57)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym(Global.scala:95)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym$(Global.scala:81)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$$anon$2.enterExistingSym(Global.scala:51)
+	at scala.tools.nsc.typechecker.Namers$Namer.standardEnterSym(Namers.scala:313)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym(AnalyzerPlugins.scala:495)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym$(AnalyzerPlugins.scala:494)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.pluginsEnterSym(MetalsGlobal.scala:61)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterSym(Namers.scala:287)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSym(Typers.scala:1985)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSyms(Typers.scala:1980)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2040)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedModuleDef(Typers.scala:1940)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5952)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6041)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:6119)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$8(Typers.scala:3410)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3410)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5634)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5954)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6041)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:6119)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$8(Typers.scala:3410)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3410)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5634)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5954)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6041)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:117)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:459)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1349)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1342)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:680)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:829)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1212)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:428)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+
+something's wrong: no file:///Users/samwaters/dev/hands-on-scala/.ammonite/scala-2.13.7/amm-2.5.3/ch5/exercises/3_nested_parse_from_string/src/ammonite/$file/ch5/exercises/3_nested_parse_from_string.amm.sc.scala in ammonite.$file.ch5.exercises.3_nested_parse_from_string.StrParser[<error>]RangePosition(file:///Users/samwaters/dev/hands-on-scala/.ammonite/scala-2.13.7/amm-2.5.3/ch5/exercises/3_nested_parse_from_string/src/ammonite/$file/ch5/exercises/3_nested_parse_from_string.amm.sc.scala, 1643, 1643, 1662)
+Jun 22, 2022 1:13:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1709
+Jun 22, 2022 1:13:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1713
+Jun 22, 2022 1:13:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1711
+Jun 22, 2022 1:13:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1710
+Jun 22, 2022 1:13:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1724
+Jun 22, 2022 1:13:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1725
+2022.06.22 01:13:31 INFO  compiling ch5/exercises/3_nested_parse_from_string.sc
+2022.06.22 01:13:32 INFO  time: compiled 3_nested_parse_from_string.sc in 1.42s
+Jun 22, 2022 1:17:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1951
+2022.06.22 01:19:12 INFO  compiling ch5/exercises/3_nested_parse_from_string.sc
+2022.06.22 01:19:13 INFO  time: compiled 3_nested_parse_from_string.sc in 1.21s
+Jun 22, 2022 1:23:29 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jun 22, 2022 1:23:29 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+scala.MatchError: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+	at scala.tools.nsc.typechecker.Unapplies.constrParamss(Unapplies.scala:88)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth(Unapplies.scala:139)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth$(Unapplies.scala:136)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.factoryMeth(MetalsGlobal.scala:61)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper(MethodSynthesis.scala:238)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper$(MethodSynthesis.scala:237)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterImplicitWrapper(Namers.scala:57)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym(Global.scala:95)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym$(Global.scala:81)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$$anon$2.enterExistingSym(Global.scala:51)
+	at scala.tools.nsc.typechecker.Namers$Namer.standardEnterSym(Namers.scala:313)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym(AnalyzerPlugins.scala:495)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym$(AnalyzerPlugins.scala:494)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.pluginsEnterSym(MetalsGlobal.scala:61)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterSym(Namers.scala:287)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSym(Typers.scala:1985)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSyms(Typers.scala:1980)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2040)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedModuleDef(Typers.scala:1940)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5952)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6041)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:6119)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$8(Typers.scala:3410)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3410)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5634)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5954)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6041)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:6119)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$8(Typers.scala:3410)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3410)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5634)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5954)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6041)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:117)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:459)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1349)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1342)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:680)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:829)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1212)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:428)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+
+something's wrong: no file:///Users/samwaters/dev/hands-on-scala/.ammonite/scala-2.13.7/amm-2.5.3/ch5/exercises/3_nested_parse_from_string/src/ammonite/$file/ch5/exercises/3_nested_parse_from_string.amm.sc.scala in ammonite.$file.ch5.exercises.3_nested_parse_from_string.StrParser[<error>]RangePosition(file:///Users/samwaters/dev/hands-on-scala/.ammonite/scala-2.13.7/amm-2.5.3/ch5/exercises/3_nested_parse_from_string/src/ammonite/$file/ch5/exercises/3_nested_parse_from_string.amm.sc.scala, 1970, 1970, 1989)
+something's wrong: no file:///Users/samwaters/dev/hands-on-scala/.ammonite/scala-2.13.7/amm-2.5.3/ch5/exercises/3_nested_parse_from_string/src/ammonite/$file/ch5/exercises/3_nested_parse_from_string.amm.sc.scala in ammonite.$file.ch5.exercises.3_nested_parse_from_string.StrParser[<error>]RangePosition(file:///Users/samwaters/dev/hands-on-scala/.ammonite/scala-2.13.7/amm-2.5.3/ch5/exercises/3_nested_parse_from_string/src/ammonite/$file/ch5/exercises/3_nested_parse_from_string.amm.sc.scala, 1988, 1988, 2007)
+2022.06.22 01:24:41 INFO  compiling ch5/exercises/3_nested_parse_from_string.sc
+2022.06.22 01:24:43 INFO  time: compiled 3_nested_parse_from_string.sc in 1.88s
+2022.06.22 01:35:46 INFO  compiling ch5/exercises/3_nested_parse_from_string.sc
+2022.06.22 01:35:47 INFO  time: compiled 3_nested_parse_from_string.sc in 1.48s
+Jun 22, 2022 1:36:09 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
