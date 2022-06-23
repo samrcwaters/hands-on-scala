@@ -188,6 +188,10 @@ object StrParser {
   // an object w/ the same name as a class that it is defined next to is called a companion object.
   // these are often used to group together implicits, statics, factory methods, and other functionality that is related to a trait or class
   // but does not belong to a specific instance.
+
+  // This is essentially equivalent to saying "if anyone looks for a StrParser[Int]
+  // they'll find this implicit object and use the instructions it provided to
+  // convert something from a string into an int"
   implicit object ParseInt extends StrParser[Int] {
     def parse(s: String) = s.toInt
   }
