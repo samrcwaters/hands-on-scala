@@ -47,19 +47,51 @@ implicit def ParseTuple[T, V](implicit p1: StrParser[T], p2: StrParser[V]) =
 
 // left off: need to write function to split expressions (not as simple as just splitting on commas since we can have nested structures)
 // eg: remove brackets, then keep track of open and closed brackets to eventually form indices of left and right
+def splitExpressions(s: String): Seq[String] = {
+  assert(s.head == '[')
+  assert(s.last == ']')
+  val indices = collection.mutable.ArrayDeque.empty[Int] // why this DS?
+  var openBrackets = 0
+  for (i <- Range(1, s.length - 1)) {
+    s(i) match {
+      case '[' => openBrackets += 1
+      case ']' => openBrackets -= 1
+      case ',' =>
+        if (openBrackets == 0) indices += 1
+      case _ => // do nothing
+    }
+  }
+  // concatenate iterables
+  val allIndices =
+    Seq(0) ++ indices ++ Seq(
+      s.length - 1
+    ) // For `[[1],[true,false]], this would be List(0, 4, 17)
+  for (i <- Range(1, allIndices.length).toList) // why are we using toList here?
+    yield s.substring(
+      allIndices(i - 1) + 1,
+      allIndices(i)
+    ) // how does yield work in scala?
+  // the above is ultimately splitting `s` based on where we found top-level commas
+}
+
+// val Array(left, mid, right) = parseTopLevelStructure("[true,false,true]")
+// println(left, mid, right)
+
+// val Array(left, right) = parseTopLevelStructure("[[1],[true,false]]")
+// println(left, right)
 
 // what's really important here is that we pick up things of the form "[something, something, etc...]"
 // and pass off their members to another `parse` function that knows how to handle them, similar to what's
 // done above in ParseTuple and ParseSeq
 
 // sequence
-println(
-  parseFromString[Seq[Boolean]]("[true,false,true]")
-) // should be List(true, false, true) (of type Seq[Boolean] (why? is this interchangeable with List?))
+// println(
+// parseFromString[Seq[Boolean]]("[true,false,true]")
+// ) // should be List(true, false, true) (of type Seq[Boolean] (why? is this interchangeable with List?))
 // tuple
-println(parseFromString[(Int, Boolean)]("[2,true]")) // should be (2,true)
+// println(parseFromString[(Int, Boolean)]("[2,true]")) // should be (2,true)
 // tuple of seqs
-println(parseFromString[(Seq[Int], Seq[Boolean])]("[[1],[true,false]]"))
+// println(parseFromString[(Seq[Int], Seq[Boolean])]("[[1],[true,false]]"))
 // println(
 //   parseFromString[Seq[(Seq[Int], Seq[Boolean])]](
 //     "[[[2],[true]],[[2,3],[false,true]],[[4,5,6],[false,true,false]]]"
