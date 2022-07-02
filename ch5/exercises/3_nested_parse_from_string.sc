@@ -29,7 +29,7 @@ def parseFromString[T](s: String)(implicit parser: StrParser[T]) = {
 // need a different `StrParser[Seq[T]]
 implicit def ParseSeq[T](implicit p: StrParser[T]) = new StrParser[Seq[T]] {
   def parse(s: String) =
-    s.substring(1, s.size - 1).split(',').toSeq.map(p.parse)
+    splitExpressions(s).map(p.parse)
 }
 
 // It doesn't really matter that we call this ParseTuple, all that matters is that
@@ -86,16 +86,19 @@ def splitExpressions(s: String): Seq[String] = {
 // and pass off their members to another `parse` function that knows how to handle them, similar to what's
 // done above in ParseTuple and ParseSeq
 
+println(splitExpressions("[[1]]"))
+
 // sequence
-// println(
-// parseFromString[Seq[Boolean]]("[true,false,true]")
-// ) // should be List(true, false, true) (of type Seq[Boolean] (why? is this interchangeable with List?))
+println(
+  parseFromString[Seq[Boolean]]("[true,false,true]")
+) // should be List(true, false, true) (of type Seq[Boolean] (why? is this interchangeable with List?))
 // tuple
 // println(parseFromString[(Int, Boolean)]("[2,true]")) // should be (2,true)
 // tuple of seqs
-// println(parseFromString[(Seq[Int], Seq[Boolean])]("[[1],[true,false]]"))
-// println(
-//   parseFromString[Seq[(Seq[Int], Seq[Boolean])]](
-//     "[[[2],[true]],[[2,3],[false,true]],[[4,5,6],[false,true,false]]]"
-//   )
-// )
+// println(parseFromString[Seq[Seq[Int]]("[[1]]"))
+println(parseFromString[(Seq[Int], Seq[Boolean])]("[[1],[true,false]]"))
+println(
+  parseFromString[Seq[(Seq[Int], Seq[Boolean])]](
+    "[[[2],[true]],[[2,3],[false,true]],[[4,5,6],[false,true,false]]]"
+  )
+)
