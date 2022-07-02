@@ -50,14 +50,16 @@ implicit def ParseTuple[T, V](implicit p1: StrParser[T], p2: StrParser[V]) =
 def splitExpressions(s: String): Seq[String] = {
   assert(s.head == '[')
   assert(s.last == ']')
-  val indices = collection.mutable.ArrayDeque.empty[Int] // why this DS?
+  val indices =
+    collection.mutable.ArrayDeque
+      .empty[Int] // Using a queue here bc we can constantly resize and then concat w/ seqs later on
   var openBrackets = 0
   for (i <- Range(1, s.length - 1)) {
     s(i) match {
       case '[' => openBrackets += 1
       case ']' => openBrackets -= 1
       case ',' =>
-        if (openBrackets == 0) indices += 1
+        if (openBrackets == 0) indices += i
       case _ => // do nothing
     }
   }
@@ -70,12 +72,12 @@ def splitExpressions(s: String): Seq[String] = {
     yield s.substring(
       allIndices(i - 1) + 1,
       allIndices(i)
-    ) // how does yield work in scala?
+    )
   // the above is ultimately splitting `s` based on where we found top-level commas
 }
 
-// val Array(left, mid, right) = parseTopLevelStructure("[true,false,true]")
-// println(left, mid, right)
+// val strSeq = splitExpressions("[true,false,true]")
+// println(strSeq)
 
 // val Array(left, right) = parseTopLevelStructure("[[1],[true,false]]")
 // println(left, right)
