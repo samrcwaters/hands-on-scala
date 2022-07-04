@@ -1,4 +1,4 @@
-// Modify the typeclass-based `parseFroMString` to take a JSON-like format,
+// Modify the typeclass-based `parseFromString` to take a JSON-like format,
 // where lists are demarcated by square brackets w/ comma-sep elements.
 // This should allow it to parse and construct arbitrarily deep nested
 // data structures *automatically* via typeclass inference
@@ -40,7 +40,7 @@ implicit def ParseTuple[T, V](implicit p1: StrParser[T], p2: StrParser[V]) =
   new StrParser[(T, V)] {
     def parse(s: String) = {
       // Multiple assignment, JS equiv would be `const {left, right} = s.split(',')`
-      val Array(left, right) = s.substring(1, s.size - 1).split(',')
+      val List(left, right) = splitExpressions(s)
       (p1.parse(left), p2.parse(right))
     }
   }
@@ -77,28 +77,12 @@ def splitExpressions(s: String): Seq[String] = {
 }
 
 // val strSeq = splitExpressions("[true,false,true]")
-// println(strSeq)
-
-// val Array(left, right) = parseTopLevelStructure("[[1],[true,false]]")
-// println(left, right)
-
-// what's really important here is that we pick up things of the form "[something, something, etc...]"
-// and pass off their members to another `parse` function that knows how to handle them, similar to what's
-// done above in ParseTuple and ParseSeq
-
-println(splitExpressions("[[1]]"))
-
-// sequence
-println(
-  parseFromString[Seq[Boolean]]("[true,false,true]")
-) // should be List(true, false, true) (of type Seq[Boolean] (why? is this interchangeable with List?))
-// tuple
-// println(parseFromString[(Int, Boolean)]("[2,true]")) // should be (2,true)
-// tuple of seqs
-// println(parseFromString[Seq[Seq[Int]]("[[1]]"))
+val something = splitExpressions("[[1],[true]]")
+println(something)
 println(parseFromString[(Seq[Int], Seq[Boolean])]("[[1],[true,false]]"))
 println(
   parseFromString[Seq[(Seq[Int], Seq[Boolean])]](
     "[[[2],[true]],[[2,3],[false,true]],[[4,5,6],[false,true,false]]]"
   )
 )
+
