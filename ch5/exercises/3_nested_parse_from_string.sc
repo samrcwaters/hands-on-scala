@@ -1,4 +1,4 @@
-// Modify the typeclass-based `parseFroMString` to take a JSON-like format,
+// Modify the typeclass-based `parseFromString` to take a JSON-like format,
 // where lists are demarcated by square brackets w/ comma-sep elements.
 // This should allow it to parse and construct arbitrarily deep nested
 // data structures *automatically* via typeclass inference
@@ -29,7 +29,7 @@ def parseFromString[T](s: String)(implicit parser: StrParser[T]) = {
 // need a different `StrParser[Seq[T]]
 implicit def ParseSeq[T](implicit p: StrParser[T]) = new StrParser[Seq[T]] {
   def parse(s: String) =
-    s.substring(1, s.size - 1).split(',').toSeq.map(p.parse)
+    splitExpressions(s).map(p.parse)
 }
 
 // It doesn't really matter that we call this ParseTuple, all that matters is that
@@ -40,7 +40,7 @@ implicit def ParseTuple[T, V](implicit p1: StrParser[T], p2: StrParser[V]) =
   new StrParser[(T, V)] {
     def parse(s: String) = {
       // Multiple assignment, JS equiv would be `const {left, right} = s.split(',')`
-      val Array(left, right) = s.substring(1, s.size - 1).split(',')
+      val List(left, right) = splitExpressions(s)
       (p1.parse(left), p2.parse(right))
     }
   }
@@ -50,14 +50,16 @@ implicit def ParseTuple[T, V](implicit p1: StrParser[T], p2: StrParser[V]) =
 def splitExpressions(s: String): Seq[String] = {
   assert(s.head == '[')
   assert(s.last == ']')
-  val indices = collection.mutable.ArrayDeque.empty[Int] // why this DS?
+  val indices =
+    collection.mutable.ArrayDeque
+      .empty[Int] // Using a queue here bc we can constantly resize and then concat w/ seqs later on
   var openBrackets = 0
   for (i <- Range(1, s.length - 1)) {
     s(i) match {
       case '[' => openBrackets += 1
       case ']' => openBrackets -= 1
       case ',' =>
-        if (openBrackets == 0) indices += 1
+        if (openBrackets == 0) indices += i
       case _ => // do nothing
     }
   }
@@ -70,30 +72,17 @@ def splitExpressions(s: String): Seq[String] = {
     yield s.substring(
       allIndices(i - 1) + 1,
       allIndices(i)
-    ) // how does yield work in scala?
+    )
   // the above is ultimately splitting `s` based on where we found top-level commas
 }
 
-// val Array(left, mid, right) = parseTopLevelStructure("[true,false,true]")
-// println(left, mid, right)
+// val strSeq = splitExpressions("[true,false,true]")
+val something = splitExpressions("[[1],[true]]")
+println(something)
+println(parseFromString[(Seq[Int], Seq[Boolean])]("[[1],[true,false]]"))
+println(
+  parseFromString[Seq[(Seq[Int], Seq[Boolean])]](
+    "[[[2],[true]],[[2,3],[false,true]],[[4,5,6],[false,true,false]]]"
+  )
+)
 
-// val Array(left, right) = parseTopLevelStructure("[[1],[true,false]]")
-// println(left, right)
-
-// what's really important here is that we pick up things of the form "[something, something, etc...]"
-// and pass off their members to another `parse` function that knows how to handle them, similar to what's
-// done above in ParseTuple and ParseSeq
-
-// sequence
-// println(
-// parseFromString[Seq[Boolean]]("[true,false,true]")
-// ) // should be List(true, false, true) (of type Seq[Boolean] (why? is this interchangeable with List?))
-// tuple
-// println(parseFromString[(Int, Boolean)]("[2,true]")) // should be (2,true)
-// tuple of seqs
-// println(parseFromString[(Seq[Int], Seq[Boolean])]("[[1],[true,false]]"))
-// println(
-//   parseFromString[Seq[(Seq[Int], Seq[Boolean])]](
-//     "[[[2],[true]],[[2,3],[false,true]],[[4,5,6],[false,true,false]]]"
-//   )
-// )
